@@ -1,5 +1,5 @@
 <template>
-  <div class="home h-screen">
+  <div class="home h-screen ">
     <div class="hero min-h-screen">
       <div class=" "></div>
       <div class="hero-content text-center text-neutral-content">

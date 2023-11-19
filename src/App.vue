@@ -1,5 +1,5 @@
 <template>
-  <div class="main" :data-theme="isDark ?'dark':'light'"> 
+  <div class="main font-sans" :data-theme="isDark ?'dark':'light'"> 
   <nav-bar/>
   <drawer/>
   <router-view v-slot="{ Component }">

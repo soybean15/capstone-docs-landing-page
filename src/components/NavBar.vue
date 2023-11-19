@@ -1,5 +1,7 @@
 <template>
   <div class="navbar text-white">
+
+    
     <div class="flex-1">
       <label
         for="my-drawer"
@@ -90,12 +92,15 @@
 <script>
 import {useThemeStore} from '@/store/theme'
 import { storeToRefs } from 'pinia';
+import { useNavStore } from '@/store/nav';
 export default {
 
     setup(){
 
         const themeStore = useThemeStore()
         const {isDark} = storeToRefs(themeStore)       
+        const navStore = useNavStore()
+        const {sideNav }= storeToRefs(navStore)
         console.log(isDark.value ) 
 
         return {
@@ -104,7 +109,8 @@ export default {
                 console.log('clicked',isDark.value)
                 
 
-            }
+            },
+            sideNav
         }
     }
 };
