@@ -12,7 +12,7 @@
 
 <script>
 import { useDocsStore } from "@/store/docs";
-import { onMounted } from "vue";
+
 import { storeToRefs } from "pinia";
 
 import ChapterPage from "./components/ChapterPage.vue";
@@ -21,9 +21,7 @@ export default {
   setup() {
     const docsStore = useDocsStore();
     const { docs } = storeToRefs(docsStore);
-    onMounted(() => {
-      docsStore.fetchData();
-    });
+    
     return {
       docs,
     };

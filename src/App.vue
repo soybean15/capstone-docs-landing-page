@@ -16,12 +16,18 @@ import NavBar from '@/components/NavBar.vue'
 import {useThemeStore} from '@/store/theme'
 import Drawer from './components/Drawer.vue'
 import { storeToRefs } from 'pinia'
+import { useDocsStore } from './store/docs'
 export default{
   components:{NavBar,Drawer},
   setup(){
 
     const themeStore = useThemeStore()
     const {isDark} = storeToRefs(themeStore)
+    const docsStore = useDocsStore();
+
+    onMounted(() => {
+      docsStore.fetchData();
+    });
 
     return {
       isDark
