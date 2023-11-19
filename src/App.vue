@@ -1,10 +1,22 @@
 <template>
-  <nav>
-    <router-link to="/">Home</router-link> |
-    <router-link to="/about">About</router-link>
-  </nav>
+  <div class="main">
+  <nav-bar/>
+  <drawer/>
   <router-view/>
+  </div>
+
 </template>
+
+<script>
+import NavBar from '@/components/NavBar.vue'
+
+import Drawer from './components/Drawer.vue'
+export default{
+  components:{NavBar,Drawer}
+}
+
+</script>
+
 
 <style>
 #app {
@@ -26,5 +38,8 @@ nav a {
 
 nav a.router-link-exact-active {
   color: #42b983;
+}
+.main{
+  background:linear-gradient(120deg, #122B40, #446CB3);
 }
 </style>

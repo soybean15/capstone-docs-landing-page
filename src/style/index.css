@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: 'font1';
+    src: url('../assets/fonts/Typographica-Blp5.ttf');
+}
+
+@font-face {
+    font-family: 'font2';
+    src: url('../assets/fonts/GeomaThinDemo-YWwO.ttf');
+}
+@font-face {
+    font-family: 'font3';
+    src: url('../assets/fonts/FinlandThin-lg3q0.otf');
+}
+.font-hero{
+    font-family: 'font3';
+}

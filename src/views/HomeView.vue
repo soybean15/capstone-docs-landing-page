@@ -1,18 +1,35 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div class="home h-screen">
+    <div class="hero min-h-screen">
+      <div class=" "></div>
+      <div class="hero-content text-center text-neutral-content">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-7xl font-bold hero-title hero-bg font-hero">PNHS Real Time Biometrics </h1>
+          <p class="mb-5 text-gray-200">
+            Capstone Documentation for realtime biometrics
+          </p>
+          <button class="btn btn-warning ">View Docs</button>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
 export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
+  name: "HomeView",
+  components: {},
+};
 </script>
+
+<style scoped>
+
+.hero-title{
+  
+  background: -webkit-linear-gradient(#cfd165, #acbe07);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+</style>
