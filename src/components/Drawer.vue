@@ -10,7 +10,7 @@
         aria-label="close sidebar"
         class="drawer-overlay"
       ></label>
-      <ul class="menu xl:menu-horizontal h-screen lg:min-w-max bg-base-200 ">
+      <ul class="menu xl:menu-horizontal  lg:min-w-max  bg-base-100 overflow-auto ">
         <li>
           <a>Solutions</a>
           <ul>
