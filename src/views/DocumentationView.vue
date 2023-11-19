@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-base-100 p-5">
+  <div class="bg-base-100 p-2 md:p-5">
     <div v-if="docs">
       <ChapterPage
         v-for="chapter in docs.chapters"
