@@ -15,7 +15,7 @@
       <ul
         class="menu xl:menu-horizontal lg:min-w-max bg-base-100 overflow-auto h-[1000px]"
       >
-        <li class="text-justify text-xl my-5 font-bold">Group I Docs </li>
+        <li class="text-justify text-xl my-5 font-bold">Table of contents </li>
         <li v-for="item in sideNav" :key="item.name">
           <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
           <ul v-if="item.subtitles">
