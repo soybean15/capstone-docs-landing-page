@@ -8,7 +8,7 @@
           <p class="mb-5 text-gray-200">
             Capstone Documentation for realtime biometrics
           </p>
-          <button class="btn btn-warning ">View Docs</button>
+         <router-link :to="{name:'docs'}">  <button  for="my-drawer" class="btn btn-warning drawer-button ">View Docs</button></router-link>
         </div>
       </div>
     </div>

@@ -1,18 +1,33 @@
 <template>
-  <div class="main">
+  <div class="main" :data-theme="isDark ?'dark':'light'"> 
   <nav-bar/>
   <drawer/>
-  <router-view/>
+  <router-view v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
   </div>
 
 </template>
 
 <script>
 import NavBar from '@/components/NavBar.vue'
-
+import {useThemeStore} from '@/store/theme'
 import Drawer from './components/Drawer.vue'
+import { storeToRefs } from 'pinia'
 export default{
-  components:{NavBar,Drawer}
+  components:{NavBar,Drawer},
+  setup(){
+
+    const themeStore = useThemeStore()
+    const {isDark} = storeToRefs(themeStore)
+
+    return {
+      isDark
+    }
+
+  }
 }
 
 </script>
@@ -42,4 +57,14 @@ nav a.router-link-exact-active {
 .main{
   background:linear-gradient(120deg, #122B40, #446CB3);
 }
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
 </style>
