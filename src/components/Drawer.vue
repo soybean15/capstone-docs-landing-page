@@ -4,7 +4,7 @@
     <div class="drawer-content">
       <!-- Page content here -->
     </div>
-    <div class="drawer-side z-50">
+    <div class="drawer-side z-50 ">
       <label
         for="my-drawer"
         aria-label="close sidebar"
@@ -13,7 +13,7 @@
 
      
       <ul
-        class="menu xl:menu-horizontal lg:min-w-max bg-base-100 overflow-auto"
+        class="menu xl:menu-horizontal lg:min-w-max bg-base-100 overflow-auto h-[1000px]"
       >
         <li class="text-justify text-xl my-5 font-bold">Group I Docs </li>
         <li v-for="item in sideNav" :key="item.name">
