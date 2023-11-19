@@ -17,6 +17,7 @@ import {useThemeStore} from '@/store/theme'
 import Drawer from './components/Drawer.vue'
 import { storeToRefs } from 'pinia'
 import { useDocsStore } from './store/docs'
+import { onMounted } from 'vue'
 export default{
   components:{NavBar,Drawer},
   setup(){
