@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar text-white">
+  <div class="navbar sticky text-white">
 
     
     <div class="flex-1">
@@ -117,4 +117,7 @@ export default {
 </script>
 
 <style>
+.sticky {
+
+}
 </style>

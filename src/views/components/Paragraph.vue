@@ -6,15 +6,33 @@
         v-for="content in section.contents"
         :key="content"
       >
-        {{ content }}
+       
+        <div  v-if="content.contents">
+            <div>{{content.message }}</div>
+          
+                <ordered-list  v-if="content.type ==='ordered_enum'" :section='content'/>
+                <UnOrderedList  v-if="content.type ==='unordered_enum'" :section='content'/>
+             
+        
+        </div>
+        <div v-else>
+            {{ content }}
+        </div>
       </p>
     </div>
   </div>
 </template>
 
 <script>
+import OrderedList from "@/views/components/OrderedList.vue";
+import UnOrderedList from "@/views/components/UnorderedList.vue";
+
 export default {
   props: ["section"],
+  components: {
+    UnOrderedList,
+    OrderedList,
+  },
 };
 </script>
 

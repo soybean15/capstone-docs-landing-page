@@ -28,9 +28,14 @@ export const useNavStore = defineStore('nav', () => {
                 }
 
                 if (Array.isArray(element[key])) {
-                    sideNav.value[sideNav.value.length - 1].subtitles = [];
+                   
 
-                    getNav(element[key], { value: sideNav.value[sideNav.value.length - 1].subtitles });
+                    if(element['title']){
+                        sideNav.value[sideNav.value.length - 1].subtitles = [];
+                        getNav(element[key], { value: sideNav.value[sideNav.value.length - 1].subtitles });
+                    }
+
+                   
                 }
 
 

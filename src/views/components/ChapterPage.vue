@@ -11,7 +11,9 @@
 
             <ordered-list v-if="section.type ==='ordered_enum'" :section='section'/>
 
-         
+            <un-ordered-list v-if="section.type ==='unordered_enum'" :section="section"/>
+
+       
         </div>
 
     </div>
