@@ -16,15 +16,15 @@
         class="menu xl:menu-horizontal lg:min-w-max bg-base-100 overflow-auto"
       >
         <li class="text-justify text-xl my-5 font-bold">Group I Docs </li>
-        <li v-for="item in sideNav" :key="item.title">
-          <a @click="active=item.title" :class="{'bg-base-300':active ===item.title}">{{ item.title }}</a>
+        <li v-for="item in sideNav" :key="item.name">
+          <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
           <ul v-if="item.subtitles">
             <li v-for="item in item.subtitles">
-              <a @click="active=item.title" :class="{'bg-base-300':active ===item.title}">{{ item.title }}</a>
+              <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
 
               <ul v-if="item.subtitles">
                 <li v-for="item in item.subtitles">
-                  <a @click="active=item.title" :class="{'bg-base-300':active ===item.title}">{{ item.title }}</a>
+                  <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
                 </li>
               </ul>
             </li>
@@ -38,6 +38,7 @@
 <script>
 import { useNavStore } from "@/store/nav";
 import { storeToRefs } from "pinia";
+import router from '@/router';
 export default {
   setup() {
     const navStore = useNavStore();
@@ -46,7 +47,13 @@ export default {
 
     return {
       sideNav,
-      active
+      active,
+      navigate:(_name)=>{
+
+        active.value = _name
+        router.push({name:'docs',hash:`#${_name}`})
+
+      }
     };
   },
 };

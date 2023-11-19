@@ -5,7 +5,7 @@ export const useNavStore = defineStore('nav', () => {
 
     const sideNav = ref([])
 
-    const active = ref('Chapter I')
+    const active = ref('chapter_1')
     const getNav = (data,sideNav) => {
         
         
@@ -23,7 +23,7 @@ export const useNavStore = defineStore('nav', () => {
 
                 if (key === 'title') {
                 
-                    sideNav.value.push({title:element[key]})
+                    sideNav.value.push({title:element[key],name:element['name']})
 
                 }
 

@@ -2,9 +2,11 @@
   "chapters": [
     {
       "title": "Chapter I",
+      "name":"chapter_1",
       "sections": [
         {
           "title": "Introduction",
+          "name":"chapter_1_1",
           "type":"paragraph",
           "contents": [
             "In today's fast-paced and interconnected world, efficient and accurate attendance management is vital for organizations of all sizes. Traditional methods of attendance tracking, such as manual sign-in sheets or swipe cards, are prone to errors, time-consuming, and lack reliability (Teachmint, 2023.). . Real-time biometrics attendance systems offer a cutting- edge solution by leveraging unique physiological or behavioral traits of individuals for instant and precise attendance verification.",
@@ -15,6 +17,7 @@
         },
         {
           "title": "Statement of the problem",
+          "name":"chapter_1_2",
           "type":"paragraph",
           "contents": [
             "The current attendance tracking system faces several challenges that hinder efficiency, accuracy, and data integrity. Firstly, the system's data processing takes an extended period, resulting in significant delays in checking and analyzing attendance records. Secondly, the system encounters difficulties in accurately tracking records when incorrect inputs or instances of missing punch in/punch out occur. This lack of visibility creates challenges in effectively monitoring employee attendance and may lead to discrepancies in calculating work hours.",
@@ -24,6 +27,7 @@
         },
         {
           "title": "Objectives of the study",
+          "name":"chapter_1_3",
           "type":"paragraph",
           "contents": [
             "The general objectives of this study on real-time biometrics include implementing an efficient system to enhance security, streamline workforce management, and improve HR processes within the school. It aims to reduce data errors, safeguard sensitive information, and empower school employees. Additionally, the research aims to provide valuable insights and practical applications for future advancements in real-time biometrics in educational settings."
@@ -31,6 +35,7 @@
           ]
         },{
           "title": "Specific objectives",
+          "name":"chapter_1_4",
           "type":"ordered_enum",
           "contents": [
             "To examine the impact of real-time biometrics on accuracy and reliability of attendance records: The study seeks to determine the extent to which a real-time biometrics attendance system improves the accuracy and reliability of attendance records compared to traditional methods. This involves comparing attendance data collected through biometric identifiers with manual or card- based attendance records and analyzing the discrepancies, if any.",
@@ -42,9 +47,11 @@
     },
     {
       "title": "Chapter II",
+      "name":"chapter_2",
       "sections": [
         {
           "title": "Review Of Related Literature",
+          "name":"chapter_2_1",
           "type":"paragraph",
           "contents": [
             "Real-time biometrics, a rapidly evolving field, encompasses the application of advanced technologies to capture, analyse, and utilize biometric data in real-time. This literature review aims to explore the advancements, challenges, and implications associated with real-time biometrics, shedding light on its potential benefits and limitations."
