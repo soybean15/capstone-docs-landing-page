@@ -183,7 +183,7 @@
           "name": "chapter_3_1",
           "type":"paragraph",
           "contents": [
-            "This chapter represents the key methods and procedures integral to our study, including details on research design, data gathering techniques, instruments used for data collection, the chosen research locale, and the identified respondents.",
+           
             "This chapter begins on the analysis about the project research design methodology together with the advancement of the system operation, process and testing, Thus the researchers decided to use the waterfall model as the software development life cycle of this proposed system for better and easier understanding of the system not just for the researchers but also for the target users of this proposed system",
             {
 
@@ -255,8 +255,8 @@
                 }
               ]
             },
-            "Figure 4 displays two figures: the Administrator and the Employees. The Administrator role involves managing both employees and hardware configurations. Additionally, this role can generate reports for employees and download them",
-            "A context diagram is a high-level view of a system. It’s a basic sketch meant to define an entity based on its scope, boundaries, and relation to external components like stakeholders. as shown in Figure 5.",
+            "<i>Figure 4</i> displays two figures: the Administrator and the Employees. The Administrator role involves managing both employees and hardware configurations. Additionally, this role can generate reports for employees and download them",
+            "A context diagram is a high-level view of a system. It’s a basic sketch meant to define an entity based on its scope, boundaries, and relation to external components like stakeholders. as shown in <i>Figure 5</i>.",
             {
               "name":"chapter_3_3_2",
               "type":"image",
@@ -268,7 +268,7 @@
                 }
               ]
             },
-            "A data flow diagram (DFD) is a graphical or visual representation using a standardized set of symbols and notations to describe a business's operations through data movement as shown in figure 6.",
+            "A <b>Data Flow Diagram (DFD)</b> is a graphical or visual representation using a standardized set of symbols and notations to describe a business's operations through data movement as shown in <i>Figure 6</i>.",
             {
               "name":"chapter_3_3_3",
               "type":"image",
@@ -280,8 +280,8 @@
                 }
               ]
             },
-            "Figure 6 illustrates the Data Flow Diagram for real-time biometrics, detailing the flow of information within the system among employees and administrators. The diagram provides specific details about how the data interacts with the database, outlining processes and interactions. This offers a comprehensive overview of the system's functionality.",
-            "An Entity-Relationship Diagram (ERD) is a visual representation that depicts the relationships between entities in a database. It provides a concise overview of how different entities interact and relate to each other within a system.",
+            "<i>Figure 6</i>  illustrates the Data Flow Diagram for real-time biometrics, detailing the flow of information within the system among employees and administrators. The diagram provides specific details about how the data interacts with the database, outlining processes and interactions. This offers a comprehensive overview of the system's functionality.",
+            "An <b>Entity-Relationship Diagram (ERD)</b> is a visual representation that depicts the relationships between entities in a database. It provides a concise overview of how different entities interact and relate to each other within a system.",
             {
               "name":"chapter_3_3_4",
               "type":"image",
@@ -293,7 +293,7 @@
                 }
               ]
             },
-            "Figure 7 provides a comprehensive view of the system by showcasing the relationships among all entities, including crucial aspects such as employee data, attendance, and daily reports. The diagram serves as a valuable tool for understanding how entities like employees collaborate, contributing to the overall functionality of the system, especially in managing attendance and generating daily reports."
+            "<i>Figure 7</i> provides a comprehensive view of the system by showcasing the relationships among all entities, including crucial aspects such as employee data, attendance, and daily reports. The diagram serves as a valuable tool for understanding how entities like employees collaborate, contributing to the overall functionality of the system, especially in managing attendance and generating daily reports."
           ]
         }
 

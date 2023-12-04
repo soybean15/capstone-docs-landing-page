@@ -17,7 +17,8 @@
         
         </div>
         <div v-else>
-            {{ content }}
+            <!-- {{ content }} -->
+            <div v-html="content"></div>
         </div>
       </p>
     </div>
