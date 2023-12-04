@@ -112,7 +112,7 @@
             "The applications of biometrics can be divided into the following three main groups: ",
             {
 
-              "name":"chapter_1_5",
+              "name":"chapter_2_5",
               "type":"unordered_enum",
              
               "contents": [
@@ -146,8 +146,161 @@
             "In the mode of identification, the individual’s identity is recognized by looking through template of all the users in the database for a match. Hence a system conducts a one -to- many comparisons to establish an individual’s identity. The identification mode classifies and identifies some unknown identity. It aims to answer questions such as “who is this person”. Distinguishing proof is a basic part in negative acknowledgment applications where the framework builds up whether the individual is who she denies being.  The motivation behind negative acknowledgment is to keep an individual from utilizing numerous identities. Identification may also be utilized as a part of positive acknowledgment for convenience (where the induvial is not required to prove an identity). While the traditional methods of personal recognition such as passwords and tokens work for positive recognition, only biometrics can be used for negative recognition (SALIL, P., SHARATH, P, and ANIL, K.  2003)."
 
           ]
+        },
+        {
+          "title": "Conceptual Framework",
+          "name":"chapter_2_2",
+          "type":"paragraph",
+          "contents":[
+            "The diagram below will define the process of how proponents came to the conclusion of discovering solution for the existing problem of the chosen locale. The input explains how proponents gather the information through surveys, interview, and web searching. After that, the process explains how the proponents came to the conclusion of having solution designed through user requirements. And finally, the output reveals the insights for system development intended for Penaranda National High School.",
+            {
+
+              "name":"chapter_2_3",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure1.jpg",
+                  "caption":"Figure 1 Conceptual Framework"
+                }
+              ]
+              
+           
+                
+              
+            }
+          ]
         }
+
       ]
+    },
+    {
+      "title": "Chapter III",
+      "name":"chapter_3",
+      "sections": [
+        {
+          "title" : "Methodology",
+          "name": "chapter_3_1",
+          "type":"paragraph",
+          "contents": [
+            "This chapter represents the key methods and procedures integral to our study, including details on research design, data gathering techniques, instruments used for data collection, the chosen research locale, and the identified respondents.",
+            "This chapter begins on the analysis about the project research design methodology together with the advancement of the system operation, process and testing, Thus the researchers decided to use the waterfall model as the software development life cycle of this proposed system for better and easier understanding of the system not just for the researchers but also for the target users of this proposed system",
+            {
+
+              "name":"chapter_3_1_1",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure2.jpg",
+                  "caption":"Figure 2 Waterfall Model"
+                }
+              ]
+              
+           
+                
+              
+            }
+           
+          ]
+        },
+        {
+          "title":"Requirements",
+          "name": "chapter_3_2",
+          "type":"paragraph",
+          "contents":[
+            "In this phase of the methodology, the researchers collect all necessary requirements by listing down the needs for the proposed system. This process involves detailing both hardware and software specifications essential for the system's functionality and effectiveness.",
+            "The research will be conducted at Peñaranda National High School, driving specific requirements for the real-time biometrics attendance system. This involves understanding student and faculty demographics, school infrastructure, and relevant protocols. Stakeholder insights from administrators and teachers will inform the system's customization, ensuring effective implementation within the school's unique operational context.",
+            {
+              "name":"chapter_3_2_1",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure3.jpg",
+                  "caption":"Figure 3  Peñaranda National High School"
+                }
+              ]
+            },
+            "To gather the required data for the study, the researcher conducts various interviews and surveys to gather user requirement and  understand the organization needs. Interviews involved face-to-face encounters with selected respondents, providing an opportunity for in-depth discussions and a deeper understanding of the current problems faced by the current attendance system.",
+            "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank.",
+            {
+              "name":"chapter_3_2_2",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/table1.jpg",
+                  "caption":"Table 1 Rating Scale Criteria"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title":"Designing",
+          "name": "chapter_3_3",
+          "type":"paragraph",
+          "contents":[
+            "After the researcher analyzed the data gathered from interviews and surveys, system designs were formulated for the real-time biometrics attendance system. The developed designs include the Use Case Diagram, Entity Relation Diagram, Context Diagram, and Data Flow Diagram, serving as crucial features guiding the development process. Constructing these system designs in the initial iteration is paramount, providing a roadmap for the development team to implement each deliverable outlined in the project's work breakdown structure.",
+            "In the initial design, the Use Case Diagram, visually represents the interaction of system users or roles with the real-time biometrics attendance system, as illustrated in Figure 4.",
+            {
+              "name":"chapter_3_3_1",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure4.jpg",
+                  "caption":"  Figure 4 Use Case Diagram"
+                }
+              ]
+            },
+            "Figure 4 displays two figures: the Administrator and the Employees. The Administrator role involves managing both employees and hardware configurations. Additionally, this role can generate reports for employees and download them",
+            "A context diagram is a high-level view of a system. It’s a basic sketch meant to define an entity based on its scope, boundaries, and relation to external components like stakeholders. as shown in Figure 5.",
+            {
+              "name":"chapter_3_3_2",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure5.jpg",
+                  "caption":"Figure 5 Context Diagram"
+                }
+              ]
+            },
+            "A data flow diagram (DFD) is a graphical or visual representation using a standardized set of symbols and notations to describe a business's operations through data movement as shown in figure 6.",
+            {
+              "name":"chapter_3_3_3",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure6.jpg",
+                  "caption":"Figure 6 Data Flow Diagram"
+                }
+              ]
+            },
+            "Figure 6 illustrates the Data Flow Diagram for real-time biometrics, detailing the flow of information within the system among employees and administrators. The diagram provides specific details about how the data interacts with the database, outlining processes and interactions. This offers a comprehensive overview of the system's functionality.",
+            "An Entity-Relationship Diagram (ERD) is a visual representation that depicts the relationships between entities in a database. It provides a concise overview of how different entities interact and relate to each other within a system.",
+            {
+              "name":"chapter_3_3_4",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure7.jpg",
+                  "caption":"Figure 7  Entity-Relationship Diagram"
+                }
+              ]
+            },
+            "Figure 7 provides a comprehensive view of the system by showcasing the relationships among all entities, including crucial aspects such as employee data, attendance, and daily reports. The diagram serves as a valuable tool for understanding how entities like employees collaborate, contributing to the overall functionality of the system, especially in managing attendance and generating daily reports."
+          ]
+        }
+
+      ]
+
+
+
     }
   ]
 }

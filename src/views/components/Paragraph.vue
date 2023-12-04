@@ -12,6 +12,7 @@
           
                 <ordered-list  v-if="content.type ==='ordered_enum'" :section='content'/>
                 <UnOrderedList  v-if="content.type ==='unordered_enum'" :section='content'/>
+                <ImageHolder  v-if="content.type ==='image'" :section='content'/>
              
         
         </div>
@@ -27,11 +28,13 @@
 import OrderedList from "@/views/components/OrderedList.vue";
 import UnOrderedList from "@/views/components/UnorderedList.vue";
 
+import ImageHolder from './ImageHolder.vue';
 export default {
   props: ["section"],
   components: {
     UnOrderedList,
     OrderedList,
+    ImageHolder
   },
 };
 </script>

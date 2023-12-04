@@ -13,6 +13,9 @@
 
             <un-ordered-list v-if="section.type ==='unordered_enum'" :section="section"/>
 
+            <ImageHolder v-if="section.type ==='image'" :section="section"/>
+            
+
        
         </div>
 
@@ -26,12 +29,15 @@
 import OrderedList from '@/views/components/OrderedList.vue'
 import UnOrderedList from '@/views/components/UnorderedList.vue'
 import Paragraph from '@/views/components/Paragraph.vue'
+
+import ImageHolder from './ImageHolder.vue'
 export default {
     props:['chapter'],
     components:{
         Paragraph,
         UnOrderedList,
-        OrderedList
+        OrderedList,
+        ImageHolder
     },
     setup(){
     
