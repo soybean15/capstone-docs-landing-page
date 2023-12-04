@@ -4,10 +4,10 @@
 
     <ul v-for="item in section.contents">
       <li>
-        <div class="flex flex-col items-center p-5 md:px-10">
+        <div class="flex flex-col  p-2 md:px-10">
           <img :src="require(`@/${item.image}`)" alt="Image">
 
-          <div class="py-2">{{item.caption}}</div>
+          <div class="py-2 indent-0 flex text-sm  justify-center ">{{item.caption}}</div>
         </div>
       </li>
     </ul>
