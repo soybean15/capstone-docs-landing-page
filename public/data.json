@@ -297,7 +297,12 @@
           ]
         },
         {
-          "title":"Implementation"
+          "title":"Implementation",
+          "name": "chapter_3_4",
+          "type":"paragraph",
+          "contents":[
+            "The researchers employ Laravel for server-side development, Vue for the client-side interface, and Soketi (WebSocket) for real-time data transfer from biometric hardware to the user interface, following the MVC pattern. The system is structured into two components: the API and the client. It utilizes MySQL for efficient data management and relies on the VS Code text editor for streamlined development and maintenance."
+          ]
         }
 
       ]
