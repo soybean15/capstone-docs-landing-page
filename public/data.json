@@ -295,6 +295,9 @@
             },
             "<i>Figure 7</i> provides a comprehensive view of the system by showcasing the relationships among all entities, including crucial aspects such as employee data, attendance, and daily reports. The diagram serves as a valuable tool for understanding how entities like employees collaborate, contributing to the overall functionality of the system, especially in managing attendance and generating daily reports."
           ]
+        },
+        {
+          "title":"Implementation"
         }
 
       ]
