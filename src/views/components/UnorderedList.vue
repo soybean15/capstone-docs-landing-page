@@ -1,8 +1,8 @@
 <template>
-   <div class="text-justify py-1 indent-0">
+   <div class="text-start py-1 indent-0">
         <div v-if="section.message">{{section.message}}</div>
         
-        <div class="pl-10 text-justify" v-if="section.contents">
+        <div class="pl-5 md:pl-10 text-start" v-if="section.contents">
             <ul v-for="item in section.contents">
                 <li :id="item.title"  class="py-2">
                     <p><strong >{{item.title}} </strong>
