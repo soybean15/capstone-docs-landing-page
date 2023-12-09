@@ -1,7 +1,7 @@
 <template>
   <div class="bg-base-100 p-2  md:p-5 ">
 
-    <div class="pt-20">
+    <div class="pt-20 text-sm  md:text-lg ">
       <div v-if="docs">
       <ChapterPage
         v-for="chapter in docs.chapters"
