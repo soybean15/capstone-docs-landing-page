@@ -351,10 +351,51 @@
               }
             ]
           },
-          "On the client side, the researchers employed a Single Page Application (SPA) setup to manage API requests and responses from the server. Pinia was selected for state management, offering an efficient solution to handle client-side state. Additionally, Axios was chosen as the HTTP request handler, facilitating seamless communication with the server and enhancing the overall responsiveness and user experience of the system. Quasar was integrated as the UI component, contributing to accelerated development with its feature-rich framework, thereby streamlining the user interface design process."
+          "On the client side, the researchers employed a Single Page Application (SPA) setup to manage API requests and responses from the server. Pinia was selected for state management, offering an efficient solution to handle client-side state. Additionally, Axios was chosen as the HTTP request handler, facilitating seamless communication with the server and enhancing the overall responsiveness and user experience of the system. Quasar was integrated as the UI component, contributing to accelerated development with its feature-rich framework, thereby streamlining the user interface design process.",
+          {
+            "name":"chapter_3_4_5",
+            "type":"image",
+            "contents":
+             [
+              { 
+                "image":"assets/img/figure12.jpg",
+                "caption":"Figure 12 Vue and Pinia"
+              }
+            ]
+          },
+          "In summary, this combination results in a well-structured and efficient system, delivering a responsive user interface and robust data management. The successful synergy of these technologies forms a foundation for a maintainable, and user-centric application."
+          ]
+        },
+        {
+          "title":"Testing and Verification",
+          "name": "chapter_3_5",
+          "type":"paragraph",
+          "contents":[
+            "The researchers have employed a diverse array of testing methodologies on the system. This includes the verification of all inputs, unit testing for individual functions, and the execution of all functions to identify possible bugs and errors. ",
+            "Unit testing was conducted before implementing each function, ensuring the robustness and reliability of the system (see Figure 13).",
+            {
+              "name":"chapter_3_5_1",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure13.jpg",
+                  "caption":"Figure 13 Unit Testing"
+                }
+              ]
+            },
+            "Pilot testing will be conducted by the researchers with school employees and administrators to evaluate the feasibility and features of the proposed system."
+
+          ]
+        },
+        {
+          "title":"Maintenance",
+          "name": "chapter_3_5",
+          "type":"paragraph",
+          "contents":[
+            "The researchers are open to making any necessary changes, monitoring, and updating of the proposed system based on the needs and further recommendations of the school administrator, who oversees all the activities and processes of the  PNHS realtime-biometrics system."
           ]
         }
-
       ]
 
 
