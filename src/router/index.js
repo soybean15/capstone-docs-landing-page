@@ -29,7 +29,7 @@ const router = createRouter({
     if (to.hash) {
       
         //Or for Vue 3:
-        return {el: to.hash, top: 15,}
+        return {el: to.hash, top: 80,}
     } else {
         return { x: 0, y: 0 }
     }
