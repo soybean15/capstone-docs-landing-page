@@ -2,7 +2,7 @@
   <div>
     <div v-if="section.contents">
       <p
-        class="text-justify py-2 indent-10"
+        class="text-start py-2 indent-10"
         v-for="content in section.contents"
         :key="content"
       >

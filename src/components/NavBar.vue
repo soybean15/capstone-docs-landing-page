@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar sticky text-white">
+  <div class="navbar fixed bg-gray-900 bg-opacity-20  text-white">
 
     
     <div class="flex-1">

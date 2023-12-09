@@ -1,12 +1,16 @@
 <template>
-  <div class="bg-base-100 p-2 md:p-5">
-    <div v-if="docs">
+  <div class="bg-base-100 p-2  md:p-5 ">
+
+    <div class="pt-20">
+      <div v-if="docs">
       <ChapterPage
         v-for="chapter in docs.chapters"
         :key="chapter.title"
         :chapter="chapter"
       />
     </div>
+    </div>
+   
   </div>
 </template>
 
