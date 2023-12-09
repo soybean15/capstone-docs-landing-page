@@ -5,6 +5,7 @@
       <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
           <h1 class="mb-5 text-7xl font-bold hero-title hero-bg font-hero">PNHS Real Time Biometrics </h1>
+          <div>Last Updated : <span>{{lastCommitDate}}</span> </div>
           <p class="mb-5 text-gray-200">
             Capstone Documentation of BSIT 4A(Group 1)
           </p>
@@ -16,9 +17,17 @@
 </template>
 
 <script>
+import { ref } from 'vue';
 export default {
   name: "HomeView",
   components: {},
+  setup(){
+    const lastCommitDate = ref(process.env.VUE_APP_LAST_COMMIT_DATE)
+   console.log(process.env.VUE_APP_LAST_COMMIT_DATE)
+   return{
+    lastCommitDate
+   }
+  }
 };
 </script>
 
