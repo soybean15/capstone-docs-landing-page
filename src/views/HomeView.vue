@@ -4,8 +4,8 @@
       <div class=" "></div>
       <div class="hero-content text-center text-neutral-content">
         <div class="max-w-md">
-          <h1 class="mb-5 text-7xl font-bold hero-title hero-bg font-hero">PNHS Real Time Biometrics </h1>
-          <div>Last Updated : <span>{{lastCommitDate}}</span> </div>
+          <h1 class=" text-7xl font-bold hero-title hero-bg font-hero">PNHS Real Time Biometrics </h1>
+          <div class="mb-5 text-sm">Last Updated : <span>{{lastCommitDate}}</span> </div>
           <p class="mb-5 text-gray-200">
             Capstone Documentation of BSIT 4A(Group 1)
           </p>
@@ -18,11 +18,13 @@
 
 <script>
 import { ref } from 'vue';
+import moment from 'moment';
 export default {
   name: "HomeView",
   components: {},
   setup(){
-    const lastCommitDate = ref(process.env.VUE_APP_LAST_COMMIT_DATE)
+    const lastCommitDate = ref(moment(process.env.VUE_APP_LAST_COMMIT_DATE, 'YYYY/MM/DD_HH:mm:ss').format('MMMM DD YYYY, h:mm:ss a'));
+
    console.log(process.env.VUE_APP_LAST_COMMIT_DATE)
    return{
     lastCommitDate
