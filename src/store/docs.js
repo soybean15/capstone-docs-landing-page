@@ -16,8 +16,7 @@ export const useDocsStore = defineStore('docs',()=>{
       
 
         navStore.getNav(docs.value.chapters,sideNav)
-        console.log(docs.value)
-        console.log(sideNav.value)
+  
     }
     return {
         fetchData,

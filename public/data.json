@@ -350,7 +350,8 @@
                 "caption":"Figure 10 Services"
               }
             ]
-          }
+          },
+          "On the client side, the researchers employed a Single Page Application (SPA) setup to manage API requests and responses from the server. Pinia was selected for state management, offering an efficient solution to handle client-side state. Additionally, Axios was chosen as the HTTP request handler, facilitating seamless communication with the server and enhancing the overall responsiveness and user experience of the system. Quasar was integrated as the UI component, contributing to accelerated development with its feature-rich framework, thereby streamlining the user interface design process."
           ]
         }
 
