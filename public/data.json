@@ -301,7 +301,56 @@
           "name": "chapter_3_4",
           "type":"paragraph",
           "contents":[
-            "The researchers employ Laravel for server-side development, Vue for the client-side interface, and Soketi (WebSocket) for real-time data transfer from biometric hardware to the user interface, following the MVC pattern. The system is structured into two components: the API and the client. It utilizes MySQL for efficient data management and relies on the VS Code text editor for streamlined development and maintenance."
+            "The researchers employ Laravel for server-side development, Vue for the client-side interface, and Soketi (WebSocket) for real-time data transfer from biometric hardware to the user interface, following the MVC pattern. The system is structured into two components: the API and the client. It utilizes MySQL for efficient data management and relies on the VS Code text editor for streamlined development and maintenance.",
+            "On the server-side of the development, the researchers initially implement scaffolding for authentication. Fortify is chosen due to its agnostic implementation, providing high customization capabilities during the system development process. Additionally, Sanctum is incorporated to meet specific usage requirements, ensuring a comprehensive and secure authentication framework for the overall system. We also use MVC architecture as it offers a structured and modular approach to development. MVC provides a clear separation of concerns, allowing for the independent development and maintenance of different components.",
+            "Upon selecting the appropriate tools and frameworks, the researchers proceeded to create models that accurately represent the entities outlined in the Entity-Relationship Diagram (ERD) from the previous section (see Figure 7). These models serve as a direct translation of the ERD, capturing the essential attributes and relationships identified for the seamless development of the system as shown in figure 8.",
+            {
+              "name":"chapter_3_4_1",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure8.jpg",
+                  "caption":"Figure 8 Models"
+                }
+              ]
+            },
+            "Following entity model creation, researchers introduced a 'manager' layer to optimize controllers. Serving as intermediaries, managers handle requests, interact with models, and streamline responses. This addition aims to maintain controller cleanliness and prevent complexity by delegating intricate tasks to managers, fostering a more modular and organized system structure <i>(see Figure 9)</i>.",
+            {
+              "name":"chapter_3_4_2",
+              "type":"image",
+              "contents":
+               [
+                { 
+                  "image":"assets/img/figure9.jpg",
+                  "caption":"Figure 9 Managers and Controllers"
+                }
+              ]
+            },
+          "The next step involved developing middleware to regulate the requests and responses within the system. This middleware plays a crucial role in managing the flow of data, ensuring secure and efficient communication between different components of the application.",
+          {
+            "name":"chapter_3_4_3",
+            "type":"image",
+            "contents":
+             [
+              { 
+                "image":"assets/img/figure10.jpg",
+                "caption":"Figure 10 Middlewares"
+              }
+            ]
+          },
+          "Additionally, we organized all external libraries on the Service layer, including the ZKteco SDK and DomPDF wrapper. This strategic placement ensures a centralized and cohesive integration of third-party tools, enhancing maintainability and providing a clear separation of concerns within the system architecture.",
+          {
+            "name":"chapter_3_4_4",
+            "type":"image",
+            "contents":
+             [
+              { 
+                "image":"assets/img/figure11.jpg",
+                "caption":"Figure 10 Services"
+              }
+            ]
+          }
           ]
         }
 
