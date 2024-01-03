@@ -19,11 +19,11 @@
         <li v-for="item in sideNav" :key="item.name">
           <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
           <ul v-if="item.subtitles">
-            <li v-for="item in item.subtitles">
+            <li v-for="item in item.subtitles" :key="item.name">
               <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
 
               <ul v-if="item.subtitles">
-                <li v-for="item in item.subtitles">
+                <li v-for="item in item.subtitles" :key="item.name">
                   <a @click="navigate(item.name)" :class="{'bg-base-300':active ===item.name}">{{ item.title }}</a>
                 </li>
               </ul>
@@ -50,6 +50,7 @@ export default {
       active,
       navigate:(_name)=>{
 
+        console.log(`#${_name}`)
         active.value = _name
         router.push({name:'docs',hash:`#${_name}`})
 

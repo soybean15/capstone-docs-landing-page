@@ -2,7 +2,7 @@
   <div class="flex flex-col">
     
 
-    <ul v-for="item in section.contents">
+    <ul v-for="item in section.contents" :key="item.name">
       <li>
         <div class="flex flex-col  p-2 md:px-10">
           <img :src="require(`@/${item.image}`)" alt="Image">

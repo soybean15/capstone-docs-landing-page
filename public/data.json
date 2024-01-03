@@ -2,12 +2,13 @@
   "chapters": [
     {
       "title": "Chapter I",
-      "name":"chapter_1",
+      "subtitle": "The Problem and its Background",
+      "name": "chapter_1",
       "sections": [
         {
           "title": "Introduction",
-          "name":"chapter_1_1",
-          "type":"paragraph",
+          "name": "chapter_1_1",
+          "type": "paragraph",
           "contents": [
             "In today's fast-paced and interconnected world, efficient and accurate attendance management is vital for organizations of all sizes. Traditional methods of attendance tracking, such as manual sign-in sheets or swipe cards, are prone to errors, time-consuming, and lack reliability (Teachmint, 2023.). . Real-time biometrics attendance systems offer a cutting- edge solution by leveraging unique physiological or behavioral traits of individuals for instant and precise attendance verification.",
             "Real-time biometrics attendance systems utilize biometric identifiers such as fingerprints and facial features to authenticate individuals in real-time. This advanced technology captures and analyzes the biometric data of individuals as they check in or out, providing immediate and accurate attendance records. The speed and accuracy of real-time biometrics enable organizations to streamline their attendance management processes and make informed decisions based on reliable data.",
@@ -16,82 +17,190 @@
           ]
         },
         {
+          "title": "Related Literature",
+          "name": "chapter_1_2",
+          "type": "paragraph",
+          "contents": [
+            "Biometrics Attendance, a rapidly evolving field, encompasses the application of advanced technologies to capture, analyse, and utilize biometric data in real-time. This literature review aims to explore the advancements, challenges, and implications associated with real-time biometrics, shedding light on its potential benefits and limitations.",
+            {
+              "title": "Current Biometrics Adoption and Trends",
+              "name": "chapter_1_3",
+              "type": "paragraph",
+              "contents": [
+                "Currently, biometrics are employed in a wide variety of domains. According to a 2018 report by German and Barber from the Center of Identity, University of Texas at Austin, the top three sectors which embrace biometric methods are financial services, technology, and government. This is followed by the workplace, recreation, and healthcare and with the least usage in the education domain. (German and Barber, 2018)"
+              ]
+            },
+            {
+              "title": "Biometrics Application",
+              "name": "chapter_1_4",
+              "type": "paragraph",
+              "contents": [
+                "For most organizations, data and computer protection has become crucial, particularly in recent years, with  “hackers” growing in number and becoming more skilled in accessing and changing personal details. Hackers understand and can use a range of devices to hack into networks and servers, including sniffers; they crack passwords and rootkits, among other things, that can be found easily on the Internet. Safety has also proved been a daunting challenge, in terms of providing more comprehensive protection, for cities and higher authorities, beneficial monitoring organizations and airport security (Meng et al., 2014). ",
+                "The applications of biometrics can be divided into the following three main groups: ",
+                {
+                  "name": "chapter_1_41",
+                  "type": "unordered_enum",
+                  "contents": [
+                    {
+                      "title": "Commercial applications:",
+                      "name": "chapter_1_42",
+                      "value": "Such as e-commerce, Internet, access, ATMs, credit cards, physical access control, cellular phones and medical records management "
+                    },
+                    {
+                      "title": "Government applications:",
+                      "name": "chapter_1_43",
+                      "value": "Such as national ID cards, correctional facilities, driver’s licenses, social security, border control and passport control "
+                    },
+                    {
+                      "title": "Forensic applications: ",
+                      "name": "chapter_1_44",
+                      "value": "Such as corpse identification, criminal investigations, terrorist identification, parenthood determination and missing children"
+                    },
+                    "Traditionally, commercial applications have used data authentication (e.g., PINs and passwords), government applications have used tangible token-based systems (e.g., ID cards) and forensic applications have relied on human and biometrics experts to match biometric features."
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Biometrics in workplace",
+              "name": "chapter_1_5",
+              "type": "paragraph",
+              "contents": [
+                "Traditionally, commercial applications have used data authentication (e.g., PINs and passwords), government applications have used tangible token-based systems (e.g., ID cards) and forensic applications have relied on human and biometrics experts to match biometric features.",
+                "Biometric systems are being increasingly deployed in large-scale civilian applications. The Schiphol Privium scheme at the Amsterdam airport, for example, employs iris-scan cards to speed up the passport and visa control procedures (Jain et al., 2011). Passengers enrolled in this scheme insert their card at the gate and look into a camera; the camera acquires the image of the traveler’s eye and processes it to locate the iris and compute the Iris Code; the computed Iris Code is compared with the data residing in the card to complete user verification (Jain et al., 2011). A similar scheme is also being used to verify the identity of Schiphol airport employees working in high-security areas. Thus, biometric systems can be used to enhance user convenience while improving security"
+              ]
+            },
+            {
+              "title": "Biometrics in Education",
+              "name": "chapter_1_6",
+              "type": "paragraph",
+              "contents": [
+                "Biometric systems are being increasingly deployed in large-scale civilian applications. The Schiphol Privium scheme at the Amsterdam airport, for example, employs iris-scan cards to speed up the passport and visa control procedures (Jain et al., 2011). Passengers enrolled in this scheme insert their card at the gate and look into a camera; the camera acquires the image of the traveler’s eye and processes it to locate the iris and compute the Iris Code; the computed Iris Code is compared with the data residing in the card to complete user verification (Jain et al., 2011). A similar scheme is also being used to verify the identity of Schiphol airport employees working in high-security areas. Thus, biometric systems can be used to enhance user convenience while improving security",
+                "Like virtually all sectors of the economy, education underwent drastic changes following the outbreak of COVID-19. In-person teaching virtually disappeared, with online learning taking its place across the world. As schools, universities and colleges continue to put the health and welfare of students at the forefront, a blended learning approach is expected to remain. Biometrics, could enable the education sector to meet the increasingly complex needs of students amidst this ongoing transformation.(Int J Interact Des Manuf. 2021)",
+                "Biometric person recognition systems share many issues and challenges with other pattern recognition applications like video surveillance, speech technologies, human–computer interaction, data analytics applications, behavioral modeling, or recommender systems. Identity Management Systems (IMS) are platforms where a permission device gives access to a specific service. These are used in education to provide access to a given product or service or for electronic registration. Passwords are very unsafe and sometimes created to be easy to remember. Biometrics are used in this area for security reasons, as it can grant access to a given system to only authorized persons, identified by their physical or behavioral characteristics (Šošević, U., Milenković, I., Milovanović, M., & Minović, M. 2013). Fingerprint cards are already used in schools for students that acquire free meals in coffee shops (Gold, S. 2010). Indeed, the use of fingerprints is a common practice from elementary school to universities/research centers.",
+                "Nita and Mihailescu (Nita, S., & Mihailescu, M. 2018). proposed a secure e-learning system based on biometric authentication and homomorphic encryption exploiting cloud computing. Additionally, this proposal predicts if he/she would pass a final exam based on past data of the user’s behavior (using biometrics data). "
+              ]
+            },
+            {
+              "title": "Identity Management ",
+              "name": "chapter_1_7",
+              "type": "paragraph",
+              "contents": [
+                "Biometric systems are being increasingly deployed in large-scale civilian applications. The Schiphol Privium scheme at the Amsterdam airport, for example, employs iris-scan cards to speed up the passport and visa control procedures (Jain et al., 2011). Passengers enrolled in this scheme insert their card at the gate and look into a camera; the camera acquires the image of the traveler’s eye and processes it to locate the iris and compute the Iris Code; the computed Iris Code is compared with the data residing in the card to complete user verification (Jain et al., 2011). A similar scheme is also being used to verify the identity of Schiphol airport employees working in high-security areas. Thus, biometric systems can be used to enhance user convenience while improving security",
+                "Like virtually all sectors of the economy, education underwent drastic changes following the outbreak of COVID-19. In-person teaching virtually disappeared, with online learning taking its place across the world. As schools, universities and colleges continue to put the health and welfare of students at the forefront, a blended learning approach is expected to remain. Biometrics, could enable the education sector to meet the increasingly complex needs of students amidst this ongoing transformation.(Int J Interact Des Manuf. 2021)",
+                "Biometric person recognition systems share many issues and challenges with other pattern recognition applications like video surveillance, speech technologies, human–computer interaction, data analytics applications, behavioral modeling, or recommender systems. Identity Management Systems (IMS) are platforms where a permission device gives access to a specific service. These are used in education to provide access to a given product or service or for electronic registration. Passwords are very unsafe and sometimes created to be easy to remember. Biometrics are used in this area for security reasons, as it can grant access to a given system to only authorized persons, identified by their physical or behavioral characteristics (Šošević, U., Milenković, I., Milovanović, M., & Minović, M. 2013). Fingerprint cards are already used in schools for students that acquire free meals in coffee shops (Gold, S. 2010). Indeed, the use of fingerprints is a common practice from elementary school to universities/research centers.",
+                "Nita and Mihailescu (Nita, S., & Mihailescu, M. 2018). proposed a secure e-learning system based on biometric authentication and homomorphic encryption exploiting cloud computing. Additionally, this proposal predicts if he/she would pass a final exam based on past data of the user’s behavior (using biometrics data). "
+              ]
+            },
+            {
+              "title": "Security",
+              "name": "chapter_1_8",
+              "type": "paragraph",
+              "contents": [
+                "In the mode of identification, the individual’s identity is recognized by looking through template of all the users in the database for a match. Hence a system conducts a one -to- many comparisons to establish an individual’s identity. The identification mode classifies and identifies some unknown identity. It aims to answer questions such as “who is this person”. Distinguishing proof is a basic part in negative acknowledgment applications where the framework builds up whether the individual is who she denies being.  The motivation behind negative acknowledgment is to keep an individual from utilizing numerous identities. Identification may also be utilized as a part of positive acknowledgment for convenience (where the induvial is not required to prove an identity). While the traditional methods of personal recognition such as passwords and tokens work for positive recognition, only biometrics can be used for negative recognition (SALIL, P., SHARATH, P, and ANIL, K.  2003)"
+              ]
+            },
+            {
+              "title": "Synthesis",
+              "name": "chapter_1_9",
+              "type": "paragraph",
+              "contents": [
+                "Biometric attendance systems have emerged as a transformative solution in attendance tracking by leveraging unique biological features for identification and verification. Employing modalities such as fingerprint recognition offer unparalleled accuracy and reliability. The real-time monitoring capability ensures prompt attendance data tracking, contributing to efficient organizational management. Enhanced security is a prominent benefit, as biometric traits are difficult to forge, mitigating the risk of unauthorized access and ensuring trustworthy attendance records. While promoting time efficiency and cost savings over the long term, challenges such as privacy concerns, technical limitations, and initial implementation costs must be addressed. Widely applicable across corporate environments, educational institutions, and government services, biometric attendance systems represent a technological advancement that addresses the shortcomings of traditional attendance tracking methods, emphasizing accuracy, efficiency, and heightened security in various sectors."
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Conceptual Framework",
+          "name": "chapter_1_10",
+          "type": "paragraph",
+          "contents": [
+            "The diagram below will define the process of how proponents came to the conclusion of discovering solution for the existing problem of the chosen locale. The input explains how proponents gather the information through surveys, interview, and web searching. After that, the process explains how the proponents came to the conclusion of having solution designed through user requirements. And finally, the output reveals the insights for system development intended for Penaranda National High School.",
+            {
+              "name": "chapter_2_3",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/conceptualframework.png",
+                  "caption": "Figure 1 Conceptual Framework"
+                }
+              ]
+            }
+          ]
+        },
+        {
           "title": "Statement of the problem",
-          "name":"chapter_1_2",
-          "type":"paragraph",
+          "name": "chapter_1_11",
+          "type": "paragraph",
           "contents": [
             "The current attendance tracking system faces several challenges that hinder efficiency, accuracy, and data integrity. Firstly, the system's data processing takes an extended period, resulting in significant delays in checking and analyzing attendance records. Secondly, the system encounters difficulties in accurately tracking records when incorrect inputs or instances of missing punch in/punch out occur. This lack of visibility creates challenges in effectively monitoring employee attendance and may lead to discrepancies in calculating work hours.",
             "This redundancy introduces complexities and potential inconsistencies between the two methods, requiring extra effort to reconcile the data. Additionally, a critical concern arises with the system's vulnerability to tampering, as it lacks robust mechanisms to detect and prevent fraudulent activities. This opens the door for potential data manipulation or fake time entries, compromising the integrity and reliability of the attendance tracking system.",
+            "Addressing these challenges is essential to improve the overall effectiveness and security of the attendance tracking system. The study will focus on:",
             {
-              "message":"Addressing these challenges is essential to improve the overall effectiveness and security of the attendance tracking system. The study will focus on:",
-              "type":"ordered_enum",
+              "name": "chapter_1_4",
+              "type": "ordered_enum",
               "contents": [
                 "How does extended data processing time affect attendance system efficiency, and what strategies improve speed without compromising accuracy?",
                 "What challenges exist in accurately tracking attendance records, and how can precision be enhanced, especially in cases of incorrect inputs or missing punch events?",
-                "What factors contribute to system vulnerabilities, and what security measures can be implemented to detect and prevent tampering, ensuring system integrity and reliability?"
-
+                "What factors contribute to system vulnerabilities, and what security measures can be implemented to detect and prevent tampering, ensuring system integrity and reliability."
               ]
             }
-            
-          ]
-        },
-        {
-          "title": "Objectives of the study",
-          "name":"chapter_1_3",
-          "type":"paragraph",
-          "contents": [
-            "The general objectives of this study on real-time biometrics include implementing an efficient system to enhance security, streamline workforce management, and improve HR processes within the school. It aims to reduce data errors, safeguard sensitive information, and empower school employees. Additionally, the research aims to provide valuable insights and practical applications for future advancements in real-time biometrics in educational settings."
-            
-          ]
-        },
-        {
-          "title": "Specific objectives",
-          "name":"chapter_1_4",
-          "type":"ordered_enum",
-          "contents": [
-            "To examine the impact of real-time biometrics on accuracy and reliability of attendance records: The study seeks to determine the extent to which a real-time biometrics attendance system improves the accuracy and reliability of attendance records compared to traditional methods. This involves comparing attendance data collected through biometric identifiers with manual or card- based attendance records and analyzing the discrepancies, if any.",
-            "To assess the feasibility and effectiveness of real-time biometrics technology for attendance management: The study aims to evaluate the practicality and efficiency of implementing a real-time biometrics attendance system within an organization. This involves assessing the technical feasibility, integration with existing systems, and evaluating the overall effectiveness of the system in accurately and reliably tracking employee attendance.",
-            "To analyze the cost and time efficiency of real-time biometrics attendance systems: The objective is to evaluate the cost-effectiveness and time-saving benefits of implementing a real-time biometrics attendance system. This includes assessing the initial investment, maintenance costs, and the reduction in administrative efforts associated with attendance management tasks. The study aims to determine whether the implementation of such a system provides a tangible return on investment and increased efficiency."
           ]
         },
 
         {
-          "title": "Significance of the Study",
-          "name":"chapter_1_5",
-          "type":"unordered_enum",
-          "message":"Studying and implementing a real-time biometrics attendance system offers numerous benefits for organizations, including enhanced accuracy, time and cost efficiency, mitigation of time theft and fraud, data-driven decision making, and improved security. ",
-          "contents": [
-            {
-              "title":"Locale - School:",
-              "name": "chapter_1_51",
-          
-              "value":"Studying and implementing a real-time biometrics attendance system offers numerous benefits for organizations, including enhanced accuracy, time and cost efficiency, mitigation of time theft and fraud, data-driven decision making, and improved security."
-            },
-            {
-              "title":"Employees and HR",
-              "name": "chapter_1_52",
-              "value":"For employees and HR personnel, the implementation of real-time biometrics is pivotal. It enhances the precision and accountability of HR management processes, thus enabling data-driven decisions and the efficient allocation of resources, which benefits both the workforce and the HR department."
-            },
-            {
-              "title":"Researchers",
-              "name": "chapter_1_53",
-              "value":"Researchers will benefit from the study as it provides us with the privilege to assist schools through research and offers an opportunity to explore new technologies and innovations."
-            },
-            {
-              "title":"Future Researchers",
-              "name": "chapter_1_54",
-              "value": "This study will provides an invaluable foundation for future researchers who wish to delve into the field of biometrics. It offers a reference point for future exploration, encouraging them to build upon the work and create further innovations, ultimately advancing the application of biometrics in educational settings."
-            }
-            
-          ]
-        },
-        {
           "title": "Scope and Delimitation",
-          "name":"chapter_1_6",
-          "type":"paragraph",
+          "name": "chapter_1_13",
+          "type": "paragraph",
           "contents": [
             "This study is centered on the comprehensive examination of employee attendance management at Penaranda National High School. Two primary respondent groups, encompassing employees and administrators, will actively contribute to the evaluation and implementation phases of the proposed system.",
             "This study examines employee attendance management at Penaranda National High School. The proposed system is created using Laravel for the backend, Socket.io (Soketi) for the server, and Vue.js for the client. It includes biometric hardware for precise input and can monitor employee activities in real time."
+          ]
+        },
+        {
+          "title": "Significance of the Study",
+          "name": "chapter_1_14",
+          "type": "unordered_enum",
+          "message": "Studying and implementing a real-time biometrics attendance system offers numerous benefits for organizations, including enhanced accuracy, time and cost efficiency, mitigation of time theft and fraud, data-driven decision making, and improved security. ",
+          "contents": [
+            {
+              "title": "Locale - School:",
+              "name": "chapter_1_15",
+              "value": "Studying and implementing a real-time biometrics attendance system offers numerous benefits for organizations, including enhanced accuracy, time and cost efficiency, mitigation of time theft and fraud, data-driven decision making, and improved security."
+            },
+            {
+              "title": "Employees and HR",
+              "name": "chapter_1_16",
+              "value": "For employees and HR personnel, the implementation of real-time biometrics is pivotal. It enhances the precision and accountability of HR management processes, thus enabling data-driven decisions and the efficient allocation of resources, which benefits both the workforce and the HR department."
+            },
+            {
+              "title": "Researchers",
+              "name": "chapter_1_17",
+              "value": "Researchers will benefit from the study as it provides us with the privilege to assist schools through research and offers an opportunity to explore new technologies and innovations."
+            },
+            {
+              "title": "Future Researchers",
+              "name": "chapter_1_18",
+              "value": "This study will provides an invaluable foundation for future researchers who wish to delve into the field of biometrics. It offers a reference point for future exploration, encouraging them to build upon the work and create further innovations, ultimately advancing the application of biometrics in educational settings."
+            }
+          ]
+        },
+        {
+          "title":"Definition of Terms",
+          "name": "chapter_1_19",
+          "type": "ordered_enum",
+          "contents": [
+            "<b>Biometrics</b> Biometrics refers to the measurement and statistical analysis of people's unique physical and behavioral characteristics, often used for secure authentication or identification purposes.",
+            "<b>Real-time</b>   Authentication Real-time authentication is the process of verifying the identity of a user or system immediately upon request, ensuring timely and up-to-date access control.",
+            "<b>Security Verification</b> involves the assessment and confirmation of the integrity and authenticity of a system or user, typically through the use of cryptographic protocols or authentication mechanisms.",
+            "<b>Identification</b>  is the process of establishing or confirming the identity of an individual or entity, often through the use of personal information, credentials, or biometric data.",
+            "<b>PIN (Personal Identification Number)</b> involves the assessment and confirmation of the integrity and authenticity of a system or user, typically through the use of cryptographic protocols or authentication mechanisms.",
+            "<b> Schiphol Privium scheme </b> A membership program facilitating expedited airport services.",
+            "<b>Time theft </b> The fraudulent manipulation of work hours.",
+            "<b>Buddy punching </b> Occurs when one employee clocks in on behalf of another.",
+            "<b> Multimodal biometric </b> Involves the use of multiple biometric modalities for identification and verification.",
+            "<b>Framework </b> A structured set of guidelines, tools, and conventions providing a foundation for developing software applications, ensuring consistency and efficiency in the development process.",
+            "<b> Database</b>A organized collection of data stored electronically, typically in tables with relationships, enabling efficient data retrieval, storage, and management for various applications and systems."
             
           ]
         }
@@ -99,41 +208,98 @@
     },
     {
       "title": "Chapter II",
-      "name":"chapter_2",
+      "subtitle":"Research Methodology",
+      "name": "chapter_2",
       "sections": [
         {
-          "title": "Review Of Related Literature",
-          "name":"chapter_2_1",
-          "type":"paragraph",
+          "title": "Research Design",
+          "name": "chapter_0",
+          "type": "paragraph",
           "contents": [
-            "Real-time biometrics, a rapidly evolving field, encompasses the application of advanced technologies to capture, analyse, and utilize biometric data in real-time. This literature review aims to explore the advancements, challenges, and implications associated with real-time biometrics, shedding light on its potential benefits and limitations.",
-            "Currently, biometrics are employed in a wide variety of domains. According to a 2018 report by German and Barber from the Center of Identity, University of Texas at Austin, the top three sectors which embrace biometric methods are financial services, technology, and government. This is followed by the workplace, recreation, and healthcare and with the least usage in the education domain. (German and Barber, 2018)",
-            "For most organizations, data and computer protection has become crucial, particularly in recent years, with  “hackers” growing in number and becoming more skilled in accessing and changing personal details. Hackers understand and can use a range of devices to hack into networks and servers, including sniffers; they crack passwords and rootkits, among other things, that can be found easily on the Internet. Safety has also proved been a daunting challenge, in terms of providing more comprehensive protection, for cities and higher authorities, beneficial monitoring organizations and airport security (Meng et al., 2014).",
-            "The applications of biometrics can be divided into the following three main groups: ",
+            "This chapter initiates the analysis of the project's research design methodology and the evolution of the system's operation, process, and testing. In light of this, the researchers have opted for the Agile model as the software development life cycle for the proposed system. This choice aims to enhance adaptability and collaboration throughout the development process, fostering a more iterative and user-focused approach. The Agile model is expected to provide a dynamic framework, ensuring not only a comprehensive grasp for the researchers but also a user-friendly experience for the intended users of the proposed system."
+          ]
+        },
+        {
+          "name": "chapter_2_21",
+          "type": "image",
+          "contents": [
             {
-
-              "name":"chapter_2_5",
-              "type":"unordered_enum",
-             
+              "image": "assets/img/agilemodel.png",
+              "caption": "Figure 2 Agile Model"
+            }
+          ]
+        },
+         
+        {
+          "title": "Research Locale",
+          "name": "chapter_2_3",
+          "type": "paragraph",
+          "contents": [
+            "The research will be conducted at Peñaranda National High School, driving specific requirements for the biometrics attendance system. This involves understanding student and faculty demographics, school infrastructure, and relevant protocols. Stakeholder insights from administrators and teachers will inform the system's customization, ensuring effective implementation within the school's unique operational context.",
+            {
+              "name": "chapter_2_21",
+              "type": "image",
               "contents": [
                 {
-                  "title":"Commercial applications:",
-                  "name": "chapter_2_51",
-              
-                  "value":"Such as e-commerce, Internet, access, ATMs, credit cards, physical access control, cellular phones and medical records management "
-                },
-                {
-                  "title":"Government applications:",
-                  "name": "chapter_2_52",
-                  "value":"Such as national ID cards, correctional facilities, driver’s licenses, social security, border control and passport control "
-                },
-                {
-                  "title":"Forensic applications: ",
-                  "name": "chapter_2_53",
-                  "value":"Such as corpse identification, criminal investigations, terrorist identification, parenthood determination and missing children"
+                  "image": "assets/img/locale.jpg",
+                  "caption": "Figure 3 Peñaranda National High School "
                 }
-                
-                
+              ]
+            },
+            "To gather the required data for the study, the researcher conducts various interviews and surveys to gather user requirement and understand the organization needs. Interviews involved face-to-face encounters with selected respondents, providing an opportunity for in-depth discussions and a deeper understanding of the current problems faced by the current attendance system."
+          ]
+        }, 
+        {
+          "title": "Research Instrument",
+          "name": "chapter_2_4",
+          "type": "paragraph",
+          "contents": [
+            "In the research study, questionnaires served as the primary research instrument for collecting essential data. Structured with clear and concise questions, these surveys were designed to systematically gather information from participants. The use of questionnaires provided a standardized approach, ensuring consistency in responses and facilitating an organized data collection process."
+          ]
+        },
+        {
+          "title": "Data Gathering Procedure",
+          "name": "chapter_2_5",
+          "type": "paragraph",
+          "contents": [
+            "The development of the proposed system is a nuanced process, involving a combination of research methods to gather essential data. Questionnaires, web searches, and face-to-face interviews with respondents serve as key instruments in obtaining a comprehensive understanding of the system's requirements. Questionnaires provide a structured approach for systematic data collection, web searches offer access to relevant online information, and interviews allow for personalized insights. the development trajectory follows a strategic sequence. Initial planning and analysis involve scrutinizing the gathered information, identifying patterns, and assessing the feasibility of the proposed system. The subsequent stages encompass the creation of the system's structure, architectural design, coding, rigorous testing, and ultimately, implementation. This systematic approach ensures a well-informed and methodical development process, aiming to deliver a robust system that meets the identified needs and seamlessly integrates into the intended environment."
+          ]
+        },
+        {
+          "title": "Requirements Analysis",
+          "name": "chapter_2_5",
+          "type": "paragraph",
+          "contents": [
+            "The researchers aim to gain insights into the details of the current state of the system, seeking a comprehensive understanding for the study.",
+            {
+              "name": "chapter_2_51",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/requirementsanalysis.png",
+                  "caption": "Figure 4 Analysis"
+                }
+              ]
+            },
+            "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank."
+          ]
+        },
+      
+        {
+
+         
+          "name": "chapter_2_1",
+          "type": "paragraph",
+          "contents": [
+            "This chapter represents the key methods and procedures integral to our study, including details on research design, data gathering techniques, instruments used for data collection, the chosen research locale, and the identified respondents.",
+           
+           
+            {
+              "title": "Research Design",
+              "name": "chapter_2_2",
+              "type": "paragraph",
+              "contents": [
+                "This chapter initiates the analysis of the project's research design methodology and the evolution of the system's operation, process, and testing. In light of this, the researchers have opted for the Agile model as the software development life cycle for the proposed system. This choice aims to enhance adaptability and collaboration throughout the development process, fostering a more iterative and user-focused approach. The Agile model is expected to provide a dynamic framework, ensuring not only a comprehensive grasp for the researchers but also a user-friendly experience for the intended users of the proposed system."
               ]
             },
             "Traditionally, commercial applications have used data authentication (e.g., PINs and passwords), government applications have used tangible token-based systems (e.g., ID cards) and forensic applications have relied on human and biometrics experts to match biometric features.",
@@ -144,319 +310,263 @@
             "Nita and Mihailescu (Nita, S., & Mihailescu, M. 2018). proposed a secure e-learning system based on biometric authentication and homomorphic encryption exploiting cloud computing. Additionally, this proposal predicts if he/she would pass a final exam based on past data of the user’s behavior (using biometrics data).",
             "In the mode of verification, the system approves an individual’s identity by comparing the captured biometric features with the individual’s biometric template stored in the framework database. In this system, a person who aims to be positively identified claims a factor – generally by means of an individual distinguishing proof number (PIN) or a user name – then the framework system conducts a one-to-one comparison to decide whether the claim is true or not. This mode aims to answer the question “is this person whom he/she claims to be”.",
             "In the mode of identification, the individual’s identity is recognized by looking through template of all the users in the database for a match. Hence a system conducts a one -to- many comparisons to establish an individual’s identity. The identification mode classifies and identifies some unknown identity. It aims to answer questions such as “who is this person”. Distinguishing proof is a basic part in negative acknowledgment applications where the framework builds up whether the individual is who she denies being.  The motivation behind negative acknowledgment is to keep an individual from utilizing numerous identities. Identification may also be utilized as a part of positive acknowledgment for convenience (where the induvial is not required to prove an identity). While the traditional methods of personal recognition such as passwords and tokens work for positive recognition, only biometrics can be used for negative recognition (SALIL, P., SHARATH, P, and ANIL, K.  2003)."
-
           ]
         },
         {
           "title": "Conceptual Framework",
-          "name":"chapter_2_2",
-          "type":"paragraph",
-          "contents":[
+          "name": "chapter_2_2",
+          "type": "paragraph",
+          "contents": [
             "The diagram below will define the process of how proponents came to the conclusion of discovering solution for the existing problem of the chosen locale. The input explains how proponents gather the information through surveys, interview, and web searching. After that, the process explains how the proponents came to the conclusion of having solution designed through user requirements. And finally, the output reveals the insights for system development intended for Penaranda National High School.",
             {
-
-              "name":"chapter_2_3",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure1.jpg",
-                  "caption":"Figure 1 Conceptual Framework"
+              "name": "chapter_2_3",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure1.jpg",
+                  "caption": "Figure 1 Conceptual Framework"
                 }
               ]
-              
-           
-                
-              
             }
           ]
         }
-
       ]
     },
     {
       "title": "Chapter III",
-      "name":"chapter_3",
+      "name": "chapter_3",
       "sections": [
         {
-          "title":"Technical Background",
+          "title": "Technical Background",
           "name": "chapter_3_1",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
             "In this chapter, we will discuss the background of the current system, the proposed system, and the technology we are about to use, along with explanations for all the technical developments incorporated into the proposed system."
-
           ]
         },
         {
-          "title":"Background  of the current System",
+          "title": "Background  of the current System",
           "name": "chapter_3_2",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
             "The current biometric system relies on USB-based data extraction with a 15-day cutoff period. This involves a manual process of transferring data from the biometric hardware to the system via USB, posing risks of errors and delays."
-
           ]
-          
         },
         {
-          "title":"Proposed System",
+          "title": "Proposed System",
           "name": "chapter_3_3",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
             "The employee will input their fingerprint on the hardware, and the fingerprint, along with the date, will be immediately processed on the server with the help of a task scheduler. This process will display the data in real-time, showing the employee's attendance data from the system, making it easier to track their lateness and absences. Administrators can manage all employees and generate reports. <i>(see Figure 2)</i>.",
             {
-
-              "name":"chapter_3_3_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure2.jpg",
-                  "caption":"Figure 2 The proposed architectural layout"
+              "name": "chapter_3_3_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure2.jpg",
+                  "caption": "Figure 2 The proposed architectural layout"
                 }
               ]
-              
             }
-
           ]
-          
         },
         {
-          "title":"Technicality of the project",
+          "title": "Technicality of the project",
           "name": "chapter_3_4",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
             "Technical aspects of the project involve using a web application accessible locally through any browser. The PNHS Realtime Biometrics system integrates ZkTeco biometric hardware with a task scheduler for real-time data. Various technical terms, including VS Code, Laravel, Xampp, MySQL, PhpMyAdmin, Soketi, Vuejs, Quasar, and Pinia, describe and represent the seamlessly integrated technologies in our project."
-            
           ]
-          
         },
         {
-          "title":"Details of the technologies to be used",
+          "title": "Details of the technologies to be used",
           "name": "chapter_3_5",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
             "This project will be available in any technology such mobile phones, laptops,and computers to run the system.",
             "In developing the project, the following technology tools will be used:",
             {
-
-              "name":"chapter_3_5",
-              "type":"unordered_enum",
-             
+              "name": "chapter_3_5",
+              "type": "unordered_enum",
               "contents": [
                 {
-                  "title":"VS Code",
+                  "title": "VS Code",
                   "name": "chapter_3_5_1",
-              
-                  "value":"In  the development  of the system, we  made use of  Microsoft Visual Studio Code for encoding the source code of the system, in order to be the accurate and fast acquisition of data and information. "
+                  "value": "In  the development  of the system, we  made use of  Microsoft Visual Studio Code for encoding the source code of the system, in order to be the accurate and fast acquisition of data and information. "
                 },
                 {
-                  "title":"Laravel",
+                  "title": "Laravel",
                   "name": "chapter_3_5_2",
-                  "value":"a free open-source PHP framework. It provides web developers tools and resources for building modern PHP web applications."
+                  "value": "a free open-source PHP framework. It provides web developers tools and resources for building modern PHP web applications."
                 },
                 {
-                  "title":"VUE",
+                  "title": "VUE",
                   "name": "chapter_3_5_3",
-                  "value":"a JavaScript framework that facilitates the user interface development of websites and single-page applications. "
+                  "value": "a JavaScript framework that facilitates the user interface development of websites and single-page applications. "
                 },
                 {
-                  "title":"Quasar",
+                  "title": "Quasar",
                   "name": "chapter_3_5_4",
-                  "value":"a popular open-source front-end framework for building user interfaces with Vue.js."
+                  "value": "a popular open-source front-end framework for building user interfaces with Vue.js."
                 },
                 {
-                  "title":"Pinia",
+                  "title": "Pinia",
                   "name": "chapter_3_5_5",
-                  "value":"a store library and state management framework for Vue.js."
+                  "value": "a store library and state management framework for Vue.js."
                 },
                 {
-                  "title":"Tailwind CSS",
+                  "title": "Tailwind CSS",
                   "name": "chapter_3_5_6",
-                  "value":"a utility-first CSS (Cascading Style Sheets) framework with predefined classes that you can use to build and design web pages "
+                  "value": "a utility-first CSS (Cascading Style Sheets) framework with predefined classes that you can use to build and design web pages "
                 },
                 {
-                  "title":"MySQL",
+                  "title": "MySQL",
                   "name": "chapter_3_5_7",
-                  "value":"an open-source relational database management system."
+                  "value": "an open-source relational database management system."
                 },
                 {
-                  "title":"PhpMyAdmin",
+                  "title": "PhpMyAdmin",
                   "name": "chapter_3_5_8",
-                  "value":"a free software tool written in PHP, intended to handle the administration of MySQL over the Web"
+                  "value": "a free software tool written in PHP, intended to handle the administration of MySQL over the Web"
                 },
                 {
-                  "title":"LAMPP/XAMPP",
+                  "title": "LAMPP/XAMPP",
                   "name": "chapter_3_5_9",
-                  "value":"a free platform that allows developers to test their code locally on their own computers."
+                  "value": "a free platform that allows developers to test their code locally on their own computers."
                 },
                 {
-                  "title":"Soketi",
+                  "title": "Soketi",
                   "name": "chapter_3_5_10",
-                  "value":"an open-source WebSockets server"
+                  "value": "an open-source WebSockets server"
                 }
               ]
             }
-            
           ]
-          
         },
         {
-          "title":"System Requirements",
+          "title": "System Requirements",
           "name": "chapter_3_6",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
             "In order for the system work effectively, it is vital to meet the following hardware and software requirements:",
             {
-              
-
-              "name":"chapter_3_6_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/table1.jpg",
-                  "caption":"Table 1 System Requirements"
+              "name": "chapter_3_6_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/table1.jpg",
+                  "caption": "Table 1 System Requirements"
                 }
               ]
-              
             },
             {
-
-              "name":"chapter_3_6_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure3.jpg",
-                  "caption":"Figure 3 ZKTeco Tx628"
+              "name": "chapter_3_6_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure3.jpg",
+                  "caption": "Figure 3 ZKTeco Tx628"
                 }
               ]
-              
             },
             "<i>Figure 3</i> displays the ZkTeco biometrics device that has TCP/IP support, a requirement for data communication between the hardware and the system."
-
           ]
-          
         }
-
       ]
     },
     {
       "title": "Chapter IV",
-      "name":"chapter_4",
+      "name": "chapter_4",
       "sections": [
         {
-          "title" : "Methodology",
+          "title": "Methodology",
           "name": "chapter_4_1",
-          "type":"paragraph",
+          "type": "paragraph",
           "contents": [
-           
             "This chapter begins on the analysis about the project research design methodology together with the advancement of the system operation, process and testing, Thus the researchers decided to use the waterfall model as the software development life cycle of this proposed system for better and easier understanding of the system not just for the researchers but also for the target users of this proposed system",
             {
-
-              "name":"chapter_4_1_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure4.jpg",
-                  "caption":"Figure 4 Waterfall Model"
+              "name": "chapter_4_1_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure4.jpg",
+                  "caption": "Figure 4 Waterfall Model"
                 }
               ]
-              
-           
-                
-              
             }
-           
           ]
         },
         {
-          "title":"Requirements",
+          "title": "Requirements",
           "name": "chapter_4_2",
-          "type":"paragraph",
-          "contents":[
+          "type": "paragraph",
+          "contents": [
             "In this phase of the methodology, the researchers collect all necessary requirements by listing down the needs for the proposed system. This process involves detailing both hardware and software specifications essential for the system's functionality and effectiveness.",
             "The research will be conducted at Peñaranda National High School, driving specific requirements for the real-time biometrics attendance system. This involves understanding student and faculty demographics, school infrastructure, and relevant protocols. Stakeholder insights from administrators and teachers will inform the system's customization, ensuring effective implementation within the school's unique operational context.",
-            {
-              "name":"chapter_4_2_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure5.jpg",
-                  "caption":"Figure 5  Peñaranda National High School"
-                }
-              ]
-            },
+          
             "To gather the required data for the study, the researcher conducts various interviews and surveys to gather user requirement and  understand the organization needs. Interviews involved face-to-face encounters with selected respondents, providing an opportunity for in-depth discussions and a deeper understanding of the current problems faced by the current attendance system.",
             "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank.",
             {
-              "name":"chapter_4_2_2",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/table2.jpg",
-                  "caption":"Table 2 Rating Scale Criteria"
+              "name": "chapter_4_2_2",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/table2.jpg",
+                  "caption": "Table 2 Rating Scale Criteria"
                 }
               ]
             }
           ]
         },
         {
-          "title":"Designing",
+          "title": "Designing",
           "name": "chapter_4_3",
-          "type":"paragraph",
-          "contents":[
+          "type": "paragraph",
+          "contents": [
             "After the researcher analyzed the data gathered from interviews and surveys, system designs were formulated for the real-time biometrics attendance system. The developed designs include the Use Case Diagram, Entity Relation Diagram, Context Diagram, and Data Flow Diagram, serving as crucial features guiding the development process. Constructing these system designs in the initial iteration is paramount, providing a roadmap for the development team to implement each deliverable outlined in the project's work breakdown structure.",
             "In the initial design, the Use Case Diagram, visually represents the interaction of system users or roles with the real-time biometrics attendance system, as illustrated in Figure 4.",
             {
-              "name":"chapter_4_3_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure6.jpg",
-                  "caption":"  Figure 6 Use Case Diagram"
+              "name": "chapter_4_3_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure6.jpg",
+                  "caption": "  Figure 6 Use Case Diagram"
                 }
               ]
             },
             "<i>Figure 4</i> displays two figures: the Administrator and the Employees. The Administrator role involves managing both employees and hardware configurations. Additionally, this role can generate reports for employees and download them",
             "A context diagram is a high-level view of a system. It’s a basic sketch meant to define an entity based on its scope, boundaries, and relation to external components like stakeholders. as shown in <i>Figure 5</i>.",
             {
-              "name":"chapter_4_3_2",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure7.jpg",
-                  "caption":"Figure 7 Context Diagram"
+              "name": "chapter_4_3_2",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure7.jpg",
+                  "caption": "Figure 7 Context Diagram"
                 }
               ]
             },
             "A <b>Data Flow Diagram (DFD)</b> is a graphical or visual representation using a standardized set of symbols and notations to describe a business's operations through data movement as shown in <i>Figure 6</i>.",
             {
-              "name":"chapter_4_3_3",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure8.jpg",
-                  "caption":"Figure 8 Data Flow Diagram"
+              "name": "chapter_4_3_3",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure8.jpg",
+                  "caption": "Figure 8 Data Flow Diagram"
                 }
               ]
             },
             "<i>Figure 6</i>  illustrates the Data Flow Diagram for real-time biometrics, detailing the flow of information within the system among employees and administrators. The diagram provides specific details about how the data interacts with the database, outlining processes and interactions. This offers a comprehensive overview of the system's functionality.",
             "An <b>Entity-Relationship Diagram (ERD)</b> is a visual representation that depicts the relationships between entities in a database. It provides a concise overview of how different entities interact and relate to each other within a system.",
             {
-              "name":"chapter_4_3_4",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure9.jpg",
-                  "caption":"Figure 9  Entity-Relationship Diagram"
+              "name": "chapter_4_3_4",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure9.jpg",
+                  "caption": "Figure 9  Entity-Relationship Diagram"
                 }
               ]
             },
@@ -464,109 +574,99 @@
           ]
         },
         {
-          "title":"Implementation",
+          "title": "Implementation",
           "name": "chapter_4_4",
-          "type":"paragraph",
-          "contents":[
+          "type": "paragraph",
+          "contents": [
             "The researchers employ Laravel for server-side development, Vue for the client-side interface, and Soketi (WebSocket) for real-time data transfer from biometric hardware to the user interface, following the MVC pattern. The system is structured into two components: the API and the client. It utilizes MySQL for efficient data management and relies on the VS Code text editor for streamlined development and maintenance.",
             "On the server-side of the development, the researchers initially implement scaffolding for authentication. Fortify is chosen due to its agnostic implementation, providing high customization capabilities during the system development process. Additionally, Sanctum is incorporated to meet specific usage requirements, ensuring a comprehensive and secure authentication framework for the overall system. We also use MVC architecture as it offers a structured and modular approach to development. MVC provides a clear separation of concerns, allowing for the independent development and maintenance of different components.",
             "Upon selecting the appropriate tools and frameworks, the researchers proceeded to create models that accurately represent the entities outlined in the Entity-Relationship Diagram (ERD) from the previous section (see Figure 7). These models serve as a direct translation of the ERD, capturing the essential attributes and relationships identified for the seamless development of the system as shown in figure 8.",
             {
-              "name":"chapter_4_4_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure10.jpg",
-                  "caption":"Figure 10 Models"
+              "name": "chapter_4_4_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure10.jpg",
+                  "caption": "Figure 10 Models"
                 }
               ]
             },
             "Following entity model creation, researchers introduced a 'manager' layer to optimize controllers. Serving as intermediaries, managers handle requests, interact with models, and streamline responses. This addition aims to maintain controller cleanliness and prevent complexity by delegating intricate tasks to managers, fostering a more modular and organized system structure <i>(see Figure 9)</i>.",
             {
-              "name":"chapter_4_4_2",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure11.jpg",
-                  "caption":"Figure 11 Managers and Controllers"
+              "name": "chapter_4_4_2",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure11.jpg",
+                  "caption": "Figure 11 Managers and Controllers"
                 }
               ]
             },
-          "The next step involved developing middleware to regulate the requests and responses within the system. This middleware plays a crucial role in managing the flow of data, ensuring secure and efficient communication between different components of the application.",
-          {
-            "name":"chapter_4_4_3",
-            "type":"image",
-            "contents":
-             [
-              { 
-                "image":"assets/img/figure12.jpg",
-                "caption":"Figure 12 Middlewares"
-              }
-            ]
-          },
-          "Additionally, we organized all external libraries on the Service layer, including the ZKteco SDK and DomPDF wrapper. This strategic placement ensures a centralized and cohesive integration of third-party tools, enhancing maintainability and providing a clear separation of concerns within the system architecture.",
-          {
-            "name":"chapter_4_4_4",
-            "type":"image",
-            "contents":
-             [
-              { 
-                "image":"assets/img/figure13.jpg",
-                "caption":"Figure 13 Services"
-              }
-            ]
-          },
-          "On the client side, the researchers employed a Single Page Application (SPA) setup to manage API requests and responses from the server. Pinia was selected for state management, offering an efficient solution to handle client-side state. Additionally, Axios was chosen as the HTTP request handler, facilitating seamless communication with the server and enhancing the overall responsiveness and user experience of the system. Quasar was integrated as the UI component, contributing to accelerated development with its feature-rich framework, thereby streamlining the user interface design process.",
-          {
-            "name":"chapter_4_4_5",
-            "type":"image",
-            "contents":
-             [
-              { 
-                "image":"assets/img/figure14.jpg",
-                "caption":"Figure 14 Vue and Pinia"
-              }
-            ]
-          },
-          "In summary, this combination results in a well-structured and efficient system, delivering a responsive user interface and robust data management. The successful synergy of these technologies forms a foundation for a maintainable, and user-centric application."
+            "The next step involved developing middleware to regulate the requests and responses within the system. This middleware plays a crucial role in managing the flow of data, ensuring secure and efficient communication between different components of the application.",
+            {
+              "name": "chapter_4_4_3",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure12.jpg",
+                  "caption": "Figure 12 Middlewares"
+                }
+              ]
+            },
+            "Additionally, we organized all external libraries on the Service layer, including the ZKteco SDK and DomPDF wrapper. This strategic placement ensures a centralized and cohesive integration of third-party tools, enhancing maintainability and providing a clear separation of concerns within the system architecture.",
+            {
+              "name": "chapter_4_4_4",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure13.jpg",
+                  "caption": "Figure 13 Services"
+                }
+              ]
+            },
+            "On the client side, the researchers employed a Single Page Application (SPA) setup to manage API requests and responses from the server. Pinia was selected for state management, offering an efficient solution to handle client-side state. Additionally, Axios was chosen as the HTTP request handler, facilitating seamless communication with the server and enhancing the overall responsiveness and user experience of the system. Quasar was integrated as the UI component, contributing to accelerated development with its feature-rich framework, thereby streamlining the user interface design process.",
+            {
+              "name": "chapter_4_4_5",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure14.jpg",
+                  "caption": "Figure 14 Vue and Pinia"
+                }
+              ]
+            },
+            "In summary, this combination results in a well-structured and efficient system, delivering a responsive user interface and robust data management. The successful synergy of these technologies forms a foundation for a maintainable, and user-centric application."
           ]
         },
         {
-          "title":"Testing and Verification",
+          "title": "Testing and Verification",
           "name": "chapter_4_5",
-          "type":"paragraph",
-          "contents":[
+          "type": "paragraph",
+          "contents": [
             "The researchers have employed a diverse array of testing methodologies on the system. This includes the verification of all inputs, unit testing for individual functions, and the execution of all functions to identify possible bugs and errors. ",
             "Unit testing was conducted before implementing each function, ensuring the robustness and reliability of the system (see Figure 13).",
             {
-              "name":"chapter_4_5_1",
-              "type":"image",
-              "contents":
-               [
-                { 
-                  "image":"assets/img/figure15.jpg",
-                  "caption":"Figure 15 Unit Testing"
+              "name": "chapter_4_5_1",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/figure15.jpg",
+                  "caption": "Figure 15 Unit Testing"
                 }
               ]
             },
             "Pilot testing will be conducted by the researchers with school employees and administrators to evaluate the feasibility and features of the proposed system."
-
           ]
         },
         {
-          "title":"Maintenance",
+          "title": "Maintenance",
           "name": "chapter_4_6",
-          "type":"paragraph",
-          "contents":[
+          "type": "paragraph",
+          "contents": [
             "The researchers are open to making any necessary changes, monitoring, and updating of the proposed system based on the needs and further recommendations of the school administrator, who oversees all the activities and processes of the  PNHS realtime-biometrics system."
           ]
         }
       ]
-
-
-
     }
   ]
 }
