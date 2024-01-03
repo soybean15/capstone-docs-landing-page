@@ -11,7 +11,7 @@
       >
        
         <div   class="text-start py-2 indent-1 " v-if="content.contents">
-            <div >{{content.message }} </div>
+          
           
                 <ordered-list  v-if="content.type ==='ordered_enum'" :section='content'/>
                 <un-ordered-list  v-else-if="content.type ==='unordered_enum'" :section='content'/>

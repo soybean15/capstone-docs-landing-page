@@ -209,6 +209,7 @@
     {
       "title": "Chapter II",
       "subtitle":"Research Methodology",
+      "details":"This chapter represents the key methods and procedures integral to our study, including details on research design, data gathering techniques, instruments used for data collection, the chosen research locale, and the identified respondents.",
       "name": "chapter_2",
       "sections": [
         {
@@ -287,71 +288,145 @@
               "type": "image",
               "contents": [
                 {
-                  "image": "assets/img/requirementsanalysis.png",
-                  "caption": "Figure 4 Analysis "
+                  "image": "assets/img/likertscale.jpg",
+                  "caption": "Table 1 Rating Scale Criteria "
                 }
               ]
             }
           ]
         },
-      
         {
-
-         
-          "name": "chapter_2_1",
+          "title": "Statistical Treatment of Data",
+          "name": "chapter_2_6",
           "type": "paragraph",
           "contents": [
-            "This chapter represents the key methods and procedures integral to our study, including details on research design, data gathering techniques, instruments used for data collection, the chosen research locale, and the identified respondents.",
-           
-           
+            "In this section are the details of the statistical treatment of data collected through our survey. Understanding the nuances of participants' responses is crucial for extracting meaningful insights from our study. The responses have been gauged on a scale ranging from 4.21 to 5.00 for 'Strongly Agree,' 3.41 to 4.20 for 'Agree,' 2.61 to 3.40 for 'Neutral,' 1.81 to 2.60 for 'Disagree,' and 1.0 to 1.80 for 'Strongly Disagree.",
+            
             {
-              "title": "Research Design",
-              "name": "chapter_2_2",
-              "type": "paragraph",
-              "contents": [
-                "This chapter initiates the analysis of the project's research design methodology and the evolution of the system's operation, process, and testing. In light of this, the researchers have opted for the Agile model as the software development life cycle for the proposed system. This choice aims to enhance adaptability and collaboration throughout the development process, fostering a more iterative and user-focused approach. The Agile model is expected to provide a dynamic framework, ensuring not only a comprehensive grasp for the researchers but also a user-friendly experience for the intended users of the proposed system."
-              ]
-            },
-            "Traditionally, commercial applications have used data authentication (e.g., PINs and passwords), government applications have used tangible token-based systems (e.g., ID cards) and forensic applications have relied on human and biometrics experts to match biometric features.",
-            "Biometric systems are being increasingly deployed in arge-scale civilian applications. The Schiphol Privium scheme at the Amsterdam airport, for example, employs iris-scan cards to speed up the passport and visa control procedures (Jain et al., 2011). Passengers enrolled in this scheme insert their card at the gate and look into a camera; the camera acquires the image of the traveler’s eye and processes it to locate the iris and compute the Iris Code; the computed Iris Code is compared with the data residing in the card to complete user verification (Jain et al., 2011). A similar scheme is also being used to verify the identity of Schiphol airport employees working in high-security areas. Thus, biometric systems can be used to enhance user convenience while improving security ",
-            "Biometric “is the science of analyzing physical or behavioral characteristics specific to each individual to authenticate their identity.” In a few words, it measures the human body. This technology can measure physiological and behavioral traits . A combination of characteristics can also be made as a multimodal biometric, which improves measurement confidence. Such combinations could be face and fingerprint, face and iris, etc. The main benefit of biometric technology is that it collects unique human characteristics for each person (Thales. 2020)",
-            "Like virtually all sectors of the economy, education underwent drastic changes following the outbreak of COVID-19. In-person teaching virtually disappeared, with online learning taking its place across the world. As schools, universities and colleges continue to put the health and welfare of students at the forefront, a blended learning approach is expected to remain. Biometrics, could enable the education sector to meet the increasingly complex needs of students amidst this ongoing transformation.(Int J Interact Des Manuf. 2021)",
-            "Biometric person recognition systems share many issues and challenges with other pattern recognition applications like video surveillance, speech technologies, human–computer interaction, data analytics applications, behavioral modeling, or recommender systems. Identity Management Systems (IMS) are platforms where a permission device gives access to a specific service. These are used in education to provide access to a given product or service or for electronic registration. Passwords are very unsafe and sometimes created to be easy to remember. Biometrics are used in this area for security reasons, as it can grant access to a given system to only authorized persons, identified by their physical or behavioral characteristics (Šošević, U., Milenković, I., Milovanović, M., & Minović, M. 2013). Fingerprint cards are already used in schools for students that acquire free meals in coffee shops (Gold, S. 2010). Indeed, the use of fingerprints is a common practice from elementary school to universities/research centers.",
-            "Nita and Mihailescu (Nita, S., & Mihailescu, M. 2018). proposed a secure e-learning system based on biometric authentication and homomorphic encryption exploiting cloud computing. Additionally, this proposal predicts if he/she would pass a final exam based on past data of the user’s behavior (using biometrics data).",
-            "In the mode of verification, the system approves an individual’s identity by comparing the captured biometric features with the individual’s biometric template stored in the framework database. In this system, a person who aims to be positively identified claims a factor – generally by means of an individual distinguishing proof number (PIN) or a user name – then the framework system conducts a one-to-one comparison to decide whether the claim is true or not. This mode aims to answer the question “is this person whom he/she claims to be”.",
-            "In the mode of identification, the individual’s identity is recognized by looking through template of all the users in the database for a match. Hence a system conducts a one -to- many comparisons to establish an individual’s identity. The identification mode classifies and identifies some unknown identity. It aims to answer questions such as “who is this person”. Distinguishing proof is a basic part in negative acknowledgment applications where the framework builds up whether the individual is who she denies being.  The motivation behind negative acknowledgment is to keep an individual from utilizing numerous identities. Identification may also be utilized as a part of positive acknowledgment for convenience (where the induvial is not required to prove an identity). While the traditional methods of personal recognition such as passwords and tokens work for positive recognition, only biometrics can be used for negative recognition (SALIL, P., SHARATH, P, and ANIL, K.  2003)."
-          ]
-        },
-        {
-          "title": "Conceptual Framework",
-          "name": "chapter_2_2",
-          "type": "paragraph",
-          "contents": [
-            "The diagram below will define the process of how proponents came to the conclusion of discovering solution for the existing problem of the chosen locale. The input explains how proponents gather the information through surveys, interview, and web searching. After that, the process explains how the proponents came to the conclusion of having solution designed through user requirements. And finally, the output reveals the insights for system development intended for Penaranda National High School.",
-            {
-              "name": "chapter_2_3",
-              "type": "image",
+            
+              "name": "chapter_1_6",
+              "type": "unordered_enum",
+              "message": "The researchers used different statistical methods to uncover patterns, trends, and variations in the data. This will involve key statistical measures such as:",
               "contents": [
                 {
-                  "image": "assets/img/figure1.jpg",
-                  "caption": "Figure 1 Conceptual Framework"
+                  "title":"Mean (Average):",
+                  "name" : "chapter_1_61",
+                  "value":"Mean = Σ Values / Number of Observations"
+                },
+                {
+                  "title":"Standard Deviation:",
+                  "name" : "chapter_1_61",
+                  "value":"Standard Deviation = √(Σ(xi - Mean)² / Number of Observations)"
+                },
+                {
+                  "title":"Percentage Distribution: ",
+                  "name" : "chapter_1_61",
+                  "value":"Percentage = (Frequency of Category / Total Number of Responses) × 100"
                 }
               ]
-            }
+            },
+            "This analysis will give us a clear picture of what respondents think. It will help us make informed decisions by interpreting the survey results thoroughly."
           ]
         }
+      
+       
+     
       ]
     },
     {
       "title": "Chapter III",
+      "subtitle":"Results and Discussion",
+      "details":"This chapter details how we developed the system and refined its components. It also discusses the findings and insights derived from the data collected during the evaluation phase.",
       "name": "chapter_3",
       "sections": [
+       
         {
-          "title": "Technical Background",
+          "title": "System Requirements",
           "name": "chapter_3_1",
           "type": "paragraph",
           "contents": [
-            "In this chapter, we will discuss the background of the current system, the proposed system, and the technology we are about to use, along with explanations for all the technical developments incorporated into the proposed system."
+            "In order for the system work effectively, it is vital to meet the following hardware and software requirements:",
+            {
+              "name": "chapter_3_51",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/systemrequirements.png",
+                  "caption": "Table 2 System Requirements"
+                }
+              ]
+            },
+            "In developing the project, the following technology tools will be used:",
+            {
+            
+              "name": "chapter_3_14",
+              "type": "unordered_enum",
+            
+              "contents": [
+                {
+                  "title": "VS Code:",
+                  "name": "chapter_3_15",
+                  "value": " In the development of the system, we made use of Microsoft Visual Studio Code for encoding the source code of the system, in order to be the accurate and fast acquisition of data and information."
+                },
+                {
+                  "title": "Laravel",
+                  "name": "chapter_3_16",
+                  "value": " a free open-source PHP framework. It provides web developers tools and resources for building modern PHP web applications."
+                },
+                {
+                  "title": "VUE",
+                  "name": "chapter_3_17",
+                  "value": " a JavaScript framework that facilitates the user interface development of websites and single-page applications. "
+                },
+                {
+                  "title": "Quasar",
+                  "name": "chapter_3_18",
+                  "value": " a popular open-source front-end framework for building user interfaces with Vue.js."
+                },
+                {
+                  "title": "Tailwind CSS",
+                  "name": "chapter_3_19",
+                  "value": " a utility-first CSS (Cascading Style Sheets) framework with predefined classes that you can use to build and design web pages "
+                },
+                {
+                  "title": "Pinia",
+                  "name": "chapter_3_20",
+                  "value": "a store library and state management framework for Vue.js."
+                },
+                {
+                  "title": "MySQL",
+                  "name": "chapter_3_21",
+                  "value": "an open-source relational database management system."
+                },
+                {
+                  "title": "PhpMyAdmin",
+                  "name": "chapter_3_22",
+                  "value": "a free software tool written in PHP, intended to handle the administration of MySQL over the Web"
+                },
+                {
+                  "title": "LAMPP/XAMPP ",
+                  "name": "chapter_3_23",
+                  "value": "a free platform that allows developers to test their code locally on their own computers."
+                },
+                {
+                  "title": "Soketi",
+                  "name": "chapter_3_24",
+                  "value": "an open-source WebSockets server"
+                }
+              ]
+            },
+            {
+              "name": "chapter_3_51",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/zkteco.jpg",
+                  "caption": "Figure 5 ZKTeco Tx628"
+                }
+              ]
+            },
+            "Figure 5 displays the ZkTeco biometrics device that has TCP/IP support, a requirement for data communication between the hardware and the system"
+
           ]
         },
         {
@@ -459,26 +534,8 @@
           "type": "paragraph",
           "contents": [
             "In order for the system work effectively, it is vital to meet the following hardware and software requirements:",
-            {
-              "name": "chapter_3_6_1",
-              "type": "image",
-              "contents": [
-                {
-                  "image": "assets/img/table1.jpg",
-                  "caption": "Table 1 System Requirements"
-                }
-              ]
-            },
-            {
-              "name": "chapter_3_6_1",
-              "type": "image",
-              "contents": [
-                {
-                  "image": "assets/img/figure3.jpg",
-                  "caption": "Figure 3 ZKTeco Tx628"
-                }
-              ]
-            },
+           
+          
             "<i>Figure 3</i> displays the ZkTeco biometrics device that has TCP/IP support, a requirement for data communication between the hardware and the system."
           ]
         }
@@ -515,17 +572,8 @@
             "The research will be conducted at Peñaranda National High School, driving specific requirements for the real-time biometrics attendance system. This involves understanding student and faculty demographics, school infrastructure, and relevant protocols. Stakeholder insights from administrators and teachers will inform the system's customization, ensuring effective implementation within the school's unique operational context.",
           
             "To gather the required data for the study, the researcher conducts various interviews and surveys to gather user requirement and  understand the organization needs. Interviews involved face-to-face encounters with selected respondents, providing an opportunity for in-depth discussions and a deeper understanding of the current problems faced by the current attendance system.",
-            "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank.",
-            {
-              "name": "chapter_4_2_2",
-              "type": "image",
-              "contents": [
-                {
-                  "image": "assets/img/table2.jpg",
-                  "caption": "Table 2 Rating Scale Criteria"
-                }
-              ]
-            }
+            "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank."
+           
           ]
         },
         {
