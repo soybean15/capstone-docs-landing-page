@@ -281,7 +281,17 @@
                 }
               ]
             },
-            "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank."
+            "The researchers also utilized the Likert scale, a widely used psychometric response scale in questionnaires and survey research. This scale allows respondents to provide their perception and evaluation of the Real-time Biometrics Attendance by ranking it from one to five, with five indicating the highest rank and one representing the lowest rank.",
+            {
+              "name": "chapter_2_51",
+              "type": "image",
+              "contents": [
+                {
+                  "image": "assets/img/requirementsanalysis.png",
+                  "caption": "Figure 4 Analysis"
+                }
+              ]
+            }
           ]
         },
       
