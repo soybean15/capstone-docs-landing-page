@@ -13,7 +13,7 @@
 
      
       <ul
-        class="menu  lg:min-w-max bg-base-100 overflow-auto "
+        class="menu w-[250px]  lg:min-w-max bg-base-100 overflow-auto "
       >
         <li class="text-justify text-xl my-5 font-bold">Table of contents </li>
         <li v-for="item in sideNav" :key="item.name">
