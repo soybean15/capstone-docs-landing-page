@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar fixed bg-gray-900 bg-opacity-50  ">
+  <div class="navbar fixed bg-gray-900 z-10 bg-opacity-50  ">
 
 
     <div class="flex-1">
@@ -25,8 +25,11 @@
         <label class="btn btn-ghost text-white">Docs</label></router-link>
     </div>
     <div class="flex-none">
+      <router-link :to="{ name: 'about' }">
+      <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">About</div>
+    </router-link>
       <div class="dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">Menu</div>
+        <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">More</div>
         <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow 	The highest mean obtained was 4.80. The data shows that the system was very high in terms of security and organized records. The possible reason that causes the result is due to extensive username and password functionality, and well-organized employee management bg-base-100  rounded-box w-52">
           <li>
             <div class="flex w-full justify-between">

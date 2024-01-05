@@ -1,10 +1,15 @@
 <template>
   <div class="home h-screen ">
+    
     <div class="hero min-h-screen">
-      <div class=" "></div>
-      <div class="hero-content text-center text-neutral-content">
+      <div class=" ">
+        <img src="@/assets/paec.png"/>
+      </div>
+
+      <div class="hero-content text-center bg-black bg-opacity-60 w-full h-full  text-neutral-content">
+
         <div class="max-w-md">
-          <h1 class=" text-7xl font-bold hero-title hero-bg font-hero">PNHS Real Time Biometrics </h1>
+          <h1 class=" text-7xl font-bold hero-title hero-bg font-hero">PNHS Biometrics Attendance with Live Data</h1>
           <div class="mb-5 text-sm">Last Updated : <span>{{lastCommitDate}}</span> </div>
           <p class="mb-5 text-gray-200">
             Capstone Documentation of BSIT 4A(Group 1)

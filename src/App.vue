@@ -66,7 +66,9 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 .main{
-  background:linear-gradient(120deg, #122B40, #446CB3);
+  
+  background: rgb(226,206,25);
+background: radial-gradient(circle, rgba(226,206,25,1) 7%, rgba(8,99,79,1) 84%);
 }
 .fade-enter-active,
 .fade-leave-active {
