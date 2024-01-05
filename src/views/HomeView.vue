@@ -1,12 +1,13 @@
 <template>
-  <div class="home h-screen ">
+  <div class="home h-screen  ">
     
-    <div class="hero min-h-screen">
-      <div class=" ">
+    <div class="hero min-h-screen w-full">
+      <div class=" w-full" style="max-width: 500px;">
         <img src="@/assets/paec.png"/>
       </div>
 
-      <div class="hero-content text-center bg-black bg-opacity-60 w-full h-full  text-neutral-content">
+      <div class=" bg-black bg-opacity-60 w-full h-full"></div>
+      <div class="hero-content text-center h-full  text-neutral-content">
 
         <div class="max-w-md">
           <h1 class=" text-7xl font-bold hero-title hero-bg font-hero">PNHS Biometrics Attendance with Live Data</h1>

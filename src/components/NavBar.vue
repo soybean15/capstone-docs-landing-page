@@ -3,7 +3,7 @@
 
 
     <div class="flex-1">
-      <label for="my-drawer" class="btn btn-ghost swap swap-rotate drawer-button" v-if="currentRoute != '/'">
+      <label for="my-drawer" class="btn btn-ghost swap swap-rotate drawer-button" v-if="currentRoute != '/' && currentRoute != '/about'">
         <!-- this hidden checkbox controls the state -->
         <input type="checkbox" />
 
@@ -26,7 +26,7 @@
     </div>
     <div class="flex-none">
       <router-link :to="{ name: 'about' }">
-      <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">About</div>
+      <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">About Us</div>
     </router-link>
       <div class="dropdown dropdown-end">
         <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">More</div>
@@ -102,7 +102,8 @@ export default {
     const route = useRoute()
     const currentRoute = computed(() => route.fullPath)
 
-    console.log(currentRoute.value)
+
+    console.log("route",currentRoute.value)
     const themeStore = useThemeStore()
     const { isDark } = storeToRefs(themeStore)
     const navStore = useNavStore()
