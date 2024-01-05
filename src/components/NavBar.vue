@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar fixed bg-gray-900 bg-opacity-20  text-white">
+  <div class="navbar fixed bg-gray-900 bg-opacity-50  ">
 
 
     <div class="flex-1">
@@ -22,12 +22,12 @@
         </svg>
       </label>
       <router-link :to="{ name: 'home' }">
-        <label class="btn btn-ghost">Docs</label></router-link>
+        <label class="btn btn-ghost text-white">Docs</label></router-link>
     </div>
     <div class="flex-none">
       <div class="dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn  btn-ghost m-1">Menu</div>
-        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow  rounded-box w-52">
+        <div tabindex="0" role="button" class="btn  btn-ghost m-1 text-white">Menu</div>
+        <ul tabindex="0" class="dropdown-content z-[1] menu p-2 shadow 	The highest mean obtained was 4.80. The data shows that the system was very high in terms of security and organized records. The possible reason that causes the result is due to extensive username and password functionality, and well-organized employee management bg-base-100  rounded-box w-52">
           <li>
             <div class="flex w-full justify-between">
               <span> Dark Mode</span>
@@ -59,13 +59,21 @@
                 <span>Repository</span>
                 <div class="avatar">
                   <div class="w-6 rounded-full">
-                    <img src="@/assets/github-logo.svg" />
+                    
+                    <img fill="#fff" src="@/assets/github-logo.svg" v-if="isDark"/>
+                    <img fill="#fff" src="@/assets/github-logo-dark.svg" v-else/>
+                    
                   </div>
                 </div>
 
               </div>
 
             </a>
+          </li>
+
+          <li>
+            <a href="/files/docx.pdf" download>Download Document</a>
+
           </li>
 
 
@@ -83,6 +91,7 @@ import { storeToRefs } from 'pinia';
 import { useNavStore } from '@/store/nav';
 import { useRoute } from 'vue-router';
 import { computed } from 'vue';
+
 export default {
 
   setup() {
@@ -96,14 +105,16 @@ export default {
     const navStore = useNavStore()
     const { sideNav } = storeToRefs(navStore)
 
+
     return {
       toggleDarkMode: () => {
         themeStore.toggleDarkMode()
 
-
+        console.log(isDark.value)
 
       },
       sideNav,
+      isDark,
       currentRoute
     }
   }
